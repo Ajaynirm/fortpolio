@@ -28,17 +28,17 @@ const Team = () => {
               </div>
             </div>
             <div>
-              <div className="font-bold">Hart Hagerty</div>
-              <div className="text-sm opacity-50">United States</div>
+              <div className="font-bold">Ajay</div>
+              <div className="text-sm opacity-50">India</div>
             </div>
           </div>
         </td>
         <td>
-          Zemlak, Daniel and Leannon
+          Software Engineer
           <br />
-          <span className="badge badge-ghost badge-sm">Desktop Support Technician</span>
+          <span className="badge badge-ghost badge-sm">Tech Lead</span>
         </td>
-        <td>Purple</td>
+        <td>fullstack</td>
         <th>
           <button className="btn btn-ghost btn-xs">details</button>
         </th>
@@ -56,17 +56,17 @@ const Team = () => {
               </div>
             </div>
             <div>
-              <div className="font-bold">Brice Swyre</div>
-              <div className="text-sm opacity-50">China</div>
+              <div className="font-bold">Abishek</div>
+              <div className="text-sm opacity-50">India</div>
             </div>
           </div>
         </td>
         <td>
-          Carroll Group
+          Big
           <br />
-          <span className="badge badge-ghost badge-sm">Tax Accountant</span>
+          <span className="badge badge-ghost badge-sm">frontend developer</span>
         </td>
-        <td>Red</td>
+        <td>ui/ux</td>
         <th>
           <button className="btn btn-ghost btn-xs">details</button>
         </th>
@@ -84,17 +84,17 @@ const Team = () => {
               </div>
             </div>
             <div>
-              <div className="font-bold">Marjy Ferencz</div>
-              <div className="text-sm opacity-50">Russia</div>
+              <div className="font-bold">Kabilan</div>
+              <div className="text-sm opacity-50">India</div>
             </div>
           </div>
         </td>
         <td>
-          Rowe-Schoen
+          Big
           <br />
-          <span className="badge badge-ghost badge-sm">Office Assistant I</span>
+          <span className="badge badge-ghost badge-sm">cyber security expert</span>
         </td>
-        <td>Crimson</td>
+        <td>Hacker</td>
         <th>
           <button className="btn btn-ghost btn-xs">details</button>
         </th>
