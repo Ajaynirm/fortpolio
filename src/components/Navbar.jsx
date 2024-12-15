@@ -9,7 +9,7 @@ const Navbar = () => {
 
 <div className="navbar bg-base-300 rounded-box">
 <div className="avatar">
-  <div className="w-20 rounded-full">
+  <div className="w-20  rounded-full">
     <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
   </div>
 </div>
@@ -65,9 +65,9 @@ const Navbar = () => {
         <details>
           <summary>Menu</summary>
           <ul className="bg-base-100 rounded-t-none p-2">
-            <li><a>About</a></li>
+            <li><a href='#about'>About</a></li>
             <li><a>stack</a></li>
-            <li><a href='#team'>project</a></li>
+            <li><a href='#project'>project</a></li>
             <li><a href='#team'>work</a></li>
             <li><a>contact</a></li>
           </ul>

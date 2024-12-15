@@ -3,8 +3,8 @@ import React from 'react'
 const Team = () => {
   return (
     <>
-        <div className="overflow-x-auto">
-  <table className="table">
+        <div className=" ">
+  <table className="table ">
     {/* head */}
     <thead>
       <tr>

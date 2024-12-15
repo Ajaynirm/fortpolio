@@ -4,7 +4,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 const Hero = () => {
   const handleStart = () => {
-    toast.error("Something went wrong!", {
+    toast.error("We are working on that!...", {
       position: "top-center", // You can choose: top-right, top-center, etc.
       autoClose: 2000, // Duration in milliseconds
       hideProgressBar: false,
@@ -16,7 +16,7 @@ const Hero = () => {
   };
   return (
     <>
-      <div className="hero bg-base-200 min-h-screen">
+      <div className="hero bg-base-200 min-h-screen" id="about">
         <div className="hero-content text-center">
           <div className="max-w-md">
             <h1 className="text-5xl font-bold">

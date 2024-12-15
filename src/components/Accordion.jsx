@@ -6,10 +6,10 @@ const Accordion = () => {
     <>
       <div className="collapse bg-base-200">
         <input type="checkbox" />
-        <div className="collapse-title text-xl font-medium text-center">
+        <div className="collapse-title text-xl font-medium text-center text-red-300" id="team">
           Click to see my Intelligent Team
         </div>
-        <div className="collapse-content">
+        <div className="collapse-content overflow-auto md:overflow-x-scroll sm:w-50">
           <Team />
         </div>
       </div>
