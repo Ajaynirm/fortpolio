@@ -2,6 +2,8 @@ import React from 'react'
 import { useState } from 'react';
 const Navbar = () => {
     const [loading,setLoading]=useState(true); 
+    const img1="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp";
+    const img2="./"
   return (
     <>
 
@@ -9,8 +11,8 @@ const Navbar = () => {
 
 <div className="navbar bg-base-300 rounded-box">
 <div className="avatar">
-  <div className="w-20  rounded-full">
-    <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+  <div className="w-16  rounded-full">
+    <img src="../public/prof.png" alt='profile' />
   </div>
 </div>
   <div className="flex-1 px-2 lg:flex-none">
