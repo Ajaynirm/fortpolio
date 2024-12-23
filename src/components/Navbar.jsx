@@ -12,7 +12,7 @@ const Navbar = () => {
 <div className="navbar bg-base-300 rounded-box">
 <div className="avatar">
   <div className="w-16  rounded-full">
-    <img src="../public/prof.png" alt='profile' />
+    <img src="./aj20.jpg" alt='profile' />
   </div>
 </div>
   <div className="flex-1 px-2 lg:flex-none">

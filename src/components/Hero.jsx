@@ -34,9 +34,9 @@ const Hero = () => {
             </button>
 
             <div className="flex justify-center p-14 gap-10">
-                    <button className="btn btn-outline btn-primary">Leetcode</button>
-                    <button className="btn btn-outline btn-secondary">Github</button>
-                    <button className="btn btn-outline btn-accent">Linkedin</button>
+                    <button className="btn btn-outline btn-primary" onClick={()=>{window.open("https://leetcode.com/u/ajaysam397/","_self")}}>Leetcode</button>
+                    <button className="btn btn-outline btn-secondary" onClick={()=> {window.open("https://github.com/Ajaynirm","_self")}}>Github</button>
+                    <button className="btn btn-outline btn-accent" onClick={()=> {window.open("https://www.linkedin.com/in/ajay-c-06465821a/","_self")}}>Linkedin</button>
                 </div>
           </div>
                 
