@@ -3,9 +3,10 @@ import React from 'react'
 const Team = () => {
   return (
     <>
-        <div className=" ">
-  <table className="table ">
-    {/* head */}
+        <div className='text-center'>
+          Not available right now
+  {/* <table className="table ">
+    
     <thead>
       <tr>
        
@@ -16,7 +17,7 @@ const Team = () => {
       </tr>
     </thead>
     <tbody>
-      {/* row 1 */}
+      
       <tr>
         <td>
           <div className="flex items-center gap-3">
@@ -43,7 +44,7 @@ const Team = () => {
           <button className="btn btn-ghost btn-xs">details</button>
         </th>
       </tr>
-      {/* row 2 */}
+      
       <tr>
        
         <td>
@@ -71,7 +72,7 @@ const Team = () => {
           <button className="btn btn-ghost btn-xs">details</button>
         </th>
       </tr>
-      {/* row 3 */}
+      
       <tr>
        
         <td>
@@ -99,11 +100,12 @@ const Team = () => {
           <button className="btn btn-ghost btn-xs">details</button>
         </th>
       </tr>
-      {/* row 4 */}
+    
      
     </tbody>
    
-  </table>
+  </table> */}
+
 </div>
     </>
   )

@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Accordion from "./components/Accordion";
-import MultiProject from "./components/MultiProject";
+import Project from "./components/Project";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <div>
         <Navbar />
         <Hero />
-        <MultiProject />
+        <Project />
         <Accordion />
         <Footer />
       </div>

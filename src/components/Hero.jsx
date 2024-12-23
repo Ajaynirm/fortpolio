@@ -32,7 +32,14 @@ const Hero = () => {
             <button className="btn btn-primary" onClick={handleStart}>
               Get Started
             </button>
+
+            <div className="flex justify-center p-14 gap-10">
+                    <button className="btn btn-outline btn-primary">Leetcode</button>
+                    <button className="btn btn-outline btn-secondary">Github</button>
+                    <button className="btn btn-outline btn-accent">Linkedin</button>
+                </div>
           </div>
+                
         </div>
       </div>
       <ToastContainer />
