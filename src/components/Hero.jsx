@@ -18,7 +18,7 @@ const Hero = () => {
     <>
       <div className="hero bg-base-200 min-h-screen" id="about">
         <div className="hero-content text-center">
-          <div className="max-w-sm">
+          <div className="min-w-sm">
             <h1 className="text-5xl font-bold">
               Hello there <br />I am Ajay
             </h1>
