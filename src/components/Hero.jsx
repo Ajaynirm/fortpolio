@@ -22,9 +22,9 @@ const Hero = () => {
   return (
     <>
     <Toaster/>
-      <div className="hero bg-base-200 min-h-screen" id="about">
-        <div className="hero-content text-center">
-          <div className="min-w-sm">
+      <div className="sm:pt-28 lg:pt-48" id="about">
+        <div className=" text-center">
+          <div className="flex  flex-col p-16 min-w-sm gap-10">
             <h1 className="text-5xl font-bold">
               Hello there <br />I am Ajay
             </h1>
@@ -38,13 +38,12 @@ const Hero = () => {
             <button className="btn btn-primary" onClick={handleStart}>
               Get Started
             </button>
-
-            <div className="flex justify-center flex-wrap  p-14 gap-10">
-                    <button className="btn btn-outline btn-primary" onClick={openLeet}>Leetcode</button>
-                    <button className="btn btn-outline btn-secondary" onClick={openGitHub}>Github</button>
-                    <button className="btn btn-outline btn-accent" onClick={openLinkedin}>Linkedin</button>
-                </div>
           </div>
+          <div className="flex flex-row md:flex-row justify-center items-center space-y-0 space-x-4">
+                    <button className="btn btn-outline btn-primary px-2 py-1 text-sm" onClick={openLeet}>Leetcode</button>
+                    <button className="btn btn-outline btn-secondary px-2 py-1 text-sm" onClick={openGitHub}>Github</button>
+                    <button className="btn btn-outline btn-accent px-2 py-1 text-sm" onClick={openLinkedin}>Linkedin</button>
+                </div>
                 
         </div>
       </div>

@@ -3,8 +3,10 @@ import React from "react";
 const Project = () => {
   return (
     <>
+    <div className="flex justify-center items-center gap-10 p-10">
+      <span className="text-5xl font-bold">projects</span>
+    </div>
     <div className='flex justify-around flex-wrap gap-20' id='project'>
-
 
  
 {/* laptop start */}
