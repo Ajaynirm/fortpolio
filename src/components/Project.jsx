@@ -6,38 +6,38 @@ const Project = () => {
     <div className='flex justify-around flex-wrap gap-20' id='project'>
 
 
-
-    <div className="card bg-base-100 w-96 shadow-x pt-20 pb-5">
+ 
+{/* laptop start */}
+<div className="card bg-base-100 w-96 shadow-x pt-20 pb-5">
         <figure>
           <img
-            src="./cric.jpg"
-            alt="Shoes"
+            src="./lap_manage.jpg"
+            alt="laptop-img"
           />
         </figure>
         <div className="card-body">
           <h2 className="card-title">
-            Score Streamer
+            smart Laptop manager
             <div className="badge badge-primary">NEW</div>
           </h2>
           <p>
-            A score streaming platform where match owners can stream their match score and users anywhere from the world can receive
-            realtime update with low latency.
+           a new way of maintaining laptop inventory for maintenance purposes with robust functionality and user friendly ui
           </p>
           <div className="card-actions justify-around">
             <div
               className="lg:tooltip"
               data-tip="click to see the documentation"
             >
-              <button className="btn btn-outline btn-accent" onClick={()=>window.open('https://github.com/Ajaynirm/cricketScore', '_self')}>Git Hub</button>
+              <button className="btn btn-outline btn-accent" onClick={()=>window.open('https://github.com/Ajaynirm/Laptop-Management', '_self')}>Git Hub</button>
             </div>
             <div className="lg:tooltip" data-tip="click to use this app">
-              <button className="btn btn-outline btn-primary" onClick={()=>window.open('https://cricket-score-counter-alpha.vercel.app/', '_self')}>Live Demo</button>
+              <button className="btn btn-outline btn-primary" onClick={()=>window.open('https://laptop-management-4.onrender.com/', '_self')}>Live Demo</button>
             </div>
           </div>
         </div>
       </div>
-
-
+      {/*  laptop end */}
+{/* secure chat start */}
       <div className="card bg-base-100 w-96 shadow-x pt-20 pb-5">
         <figure>
           <img
@@ -67,7 +67,8 @@ const Project = () => {
           </div>
         </div>
       </div>
-
+      {/* secure chat end */}
+      {/* insta clone start */}
       <div className="card bg-base-100 w-96 shadow-x pt-20 pb-5">
         <figure>
           <img
@@ -96,7 +97,40 @@ const Project = () => {
           </div>
         </div>
       </div>
+{/* insta clone end */}
+{/* cricket project start */}
+<div className="card bg-base-100 w-96 shadow-x pt-20 pb-5">
+        <figure>
+          <img
+            src="./cric.jpg"
+            alt="Shoes"
+          />
+        </figure>
+        <div className="card-body">
+          <h2 className="card-title">
+            Score Streamer
+            <div className="badge badge-primary">NEW</div>
+          </h2>
+          <p>
+            A score streaming platform where match owners can stream their match score and users anywhere from the world can receive
+            realtime update with low latency.
+          </p>
+          <div className="card-actions justify-around">
+            <div
+              className="lg:tooltip"
+              data-tip="click to see the documentation"
+            >
+              <button className="btn btn-outline btn-accent" onClick={()=>window.open('https://github.com/Ajaynirm/cricketScore', '_self')}>Git Hub</button>
+            </div>
+            <div className="lg:tooltip" data-tip="click to use this app">
+              <button className="btn btn-outline btn-primary" onClick={()=>window.open('https://cricket-score-counter-alpha.vercel.app/', '_self')}>Live Demo</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
+{/* cricket project end */}
+{/* employee enroller start*/}
       <div className="card bg-base-100 w-96 shadow-x pt-20 pb-5">
         <figure>
           <img
@@ -125,6 +159,8 @@ const Project = () => {
           </div>
         </div>
       </div>
+      {/* employee enroller end*/}
+
       <div className="card bg-base-100 w-96 shadow-x pt-20 pb-5">
         <figure>
           <img
