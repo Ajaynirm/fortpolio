@@ -18,11 +18,11 @@ const Hero = () => {
     <>
       <div className="hero bg-base-200 min-h-screen" id="about">
         <div className="hero-content text-center">
-          <div className="max-w-md">
+          <div className="max-w-sm">
             <h1 className="text-5xl font-bold">
               Hello there <br />I am Ajay
             </h1>
-            <p className="py-6">
+            <p className=" py-7">
               a passionate and enthusiastic full-stack software developer eager
               to make an impact in the tech industry. With a strong foundation
               in both front-end and back-end development, I thrive in dynamic
@@ -33,7 +33,7 @@ const Hero = () => {
               Get Started
             </button>
 
-            <div className="flex justify-center p-14 gap-10">
+            <div className="flex justify-center flex-wrap  p-14 gap-10">
                     <button className="btn btn-outline btn-primary" onClick={()=>{window.open("https://leetcode.com/u/ajaysam397/","_self")}}>Leetcode</button>
                     <button className="btn btn-outline btn-secondary" onClick={()=> {window.open("https://github.com/Ajaynirm","_self")}}>Github</button>
                     <button className="btn btn-outline btn-accent" onClick={()=> {window.open("https://www.linkedin.com/in/ajay-c-06465821a/","_self")}}>Linkedin</button>

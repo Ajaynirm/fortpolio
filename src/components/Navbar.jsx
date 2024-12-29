@@ -11,9 +11,9 @@ const Navbar = () => {
 
 <div className="navbar bg-base-300 rounded-box">
 <div className="avatar">
-  <div className="w-16  rounded-full">
+  {/* <div className="w-16  rounded-full">
     <img src="./" alt='profile' />
-  </div>
+  </div> */}
 </div>
   <div className="flex-1 px-2 lg:flex-none">
   <span className="loading loading-infinity loading-lg text-blue-400"></span>
