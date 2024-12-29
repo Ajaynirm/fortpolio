@@ -1,21 +1,27 @@
 import React from "react";
-import { toast, ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import toast,{Toaster} from "react-hot-toast";
+
 
 const Hero = () => {
   const handleStart = () => {
-    toast.error("We are working on that!...", {
-      position: "top-center", // You can choose: top-right, top-center, etc.
-      autoClose: 2000, // Duration in milliseconds
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      theme: "dark", // Options: light, dark, colored
-    });
+    toast.error("We are working on that!...");
   };
+  const openLeet = ()=>{
+    toast.loading("Opening LeetCode...");
+    window.open("https://leetcode.com/u/ajaysam397/","_self");
+  }
+  const openGitHub = ()=>{
+    toast.loading("Opening GitHub...");
+    window.open("https://github.com/Ajaynirm","_self");
+  }
+  const openLinkedin = ()=>{
+    toast.loading("Opening LinkedIn...");
+    window.open("https://www.linkedin.com/in/ajay-c-06465821a/","_self");
+  }
+
   return (
     <>
+    <Toaster/>
       <div className="hero bg-base-200 min-h-screen" id="about">
         <div className="hero-content text-center">
           <div className="min-w-sm">
@@ -34,15 +40,15 @@ const Hero = () => {
             </button>
 
             <div className="flex justify-center flex-wrap  p-14 gap-10">
-                    <button className="btn btn-outline btn-primary" onClick={()=>{window.open("https://leetcode.com/u/ajaysam397/","_self")}}>Leetcode</button>
-                    <button className="btn btn-outline btn-secondary" onClick={()=> {window.open("https://github.com/Ajaynirm","_self")}}>Github</button>
-                    <button className="btn btn-outline btn-accent" onClick={()=> {window.open("https://www.linkedin.com/in/ajay-c-06465821a/","_self")}}>Linkedin</button>
+                    <button className="btn btn-outline btn-primary" onClick={openLeet}>Leetcode</button>
+                    <button className="btn btn-outline btn-secondary" onClick={openGitHub}>Github</button>
+                    <button className="btn btn-outline btn-accent" onClick={openLinkedin}>Linkedin</button>
                 </div>
           </div>
                 
         </div>
       </div>
-      <ToastContainer />
+      
     </>
   );
 };
