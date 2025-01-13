@@ -70,8 +70,7 @@ const Navbar = () => {
             <li><a href='#about'>About</a></li>
             <li><a href='#stack'>stack</a></li>
             <li><a href='#project'>project</a></li>
-            <li><a href='#team'>work</a></li>
-            <li><a>contact</a></li>
+            <li><a href='#contact'>contact</a></li>
           </ul>
         </details>
       </li>
