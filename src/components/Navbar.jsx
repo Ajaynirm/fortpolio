@@ -9,7 +9,7 @@ const Navbar = () => {
 
 
 
-<div className=" fixed top-0 left-0 w-full bg-green-500 text-white shadow-md z-50 navbar bg-base-300 ">
+<div className="  top-0 left-0 w-full bg-blue-600 text-white shadow-md z-50 navbar bg-base-300 ">
 <div className="avatar">
   {/* <div className="w-16  rounded-full">
     <img src="./" alt='profile' />
@@ -17,7 +17,7 @@ const Navbar = () => {
 </div>
   <div className="flex-1 px-2 lg:flex-none">
   <span className="loading loading-infinity loading-lg text-blue-400"></span>
-    <a className="text-lg font-bold">Ajay C</a>
+    <a className="text-lg font-bold font-mono">Ajay C</a>
     
   </div>
 
@@ -68,7 +68,7 @@ const Navbar = () => {
           <summary>Menu</summary>
           <ul className="bg-base-100 rounded-t-none p-2">
             <li><a href='#about'>About</a></li>
-            <li><a>stack</a></li>
+            <li><a href='#stack'>stack</a></li>
             <li><a href='#project'>project</a></li>
             <li><a href='#team'>work</a></li>
             <li><a>contact</a></li>

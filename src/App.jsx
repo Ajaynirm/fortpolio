@@ -5,6 +5,8 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Accordion from "./components/Accordion";
 import Project from "./components/Project";
+import Experience from "./components/Experience";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -12,8 +14,10 @@ function App() {
       <div>
         <Navbar />
         <Hero />
+        <Experience />
         <Project />
-        <Accordion />
+        {/* <Accordion /> */}
+        <Contact />
         <Footer />
       </div>
     </>
