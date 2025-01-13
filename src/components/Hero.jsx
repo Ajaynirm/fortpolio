@@ -3,6 +3,14 @@ import toast,{Toaster} from "react-hot-toast";
 import './animations.css';
 
 const Hero = () => {
+
+  
+  const handleVibrate = () => {
+    if (navigator.vibrate) {
+      navigator.vibrate(1000); 
+    }
+  }
+
   const handleStart = () => {
     toast.success("Scroll Down !!!");
   };
@@ -22,6 +30,9 @@ const Hero = () => {
   return (
     <>
     <Toaster/>
+
+    
+    
       <div className="sm:pt-28 lg:pt-48" id="about">
         <div className=" text-center">
           <div className="flex  flex-col p-16 min-w-sm gap-10">
@@ -36,7 +47,7 @@ const Hero = () => {
               environments where I can contribute innovative solutions to
               complex problems.
             </p>
-            <button className="btn btn-primary font-serif " onClick={handleStart}>
+            <button className="btn btn-primary font-serif " onClick={handleVibrate}>
               Get Started
             </button>
           </div>
