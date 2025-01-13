@@ -25,7 +25,7 @@ const Experience = () => {
 <div className="flex flex-wrap gap-8">
     
 {/* react */}
-<div className="card bg-base-100 w-64 shadow-xl">
+<div className="card bg-base-100 w-64 shadow-xl md:hover:animate-spin">
   <figure className="px-5 pt-10">
     <img
       src="https://miro.medium.com/v2/resize:fit:600/1*KUjro0G-igf6P3lvlcDrTQ.png"
