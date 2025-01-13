@@ -7,15 +7,15 @@ const Hero = () => {
     toast.success("Scroll Down !!!");
   };
   const openLeet = ()=>{
-    toast.success("Opening LeetCode...");
+    toast.success("LeetCode Opened...");
     window.open("https://leetcode.com/u/ajaysam397/","_self");
   }
   const openGitHub = ()=>{
-    toast.success("Opening GitHub...");
+    toast.success("GitHub Opened...");
     window.open("https://github.com/Ajaynirm","_self");
   }
   const openLinkedin = ()=>{
-    toast.success("Opening LinkedIn...");
+    toast.success("LinkedIn Opened ...");
     window.open("https://www.linkedin.com/in/ajay-c-06465821a/","_self");
   }
 

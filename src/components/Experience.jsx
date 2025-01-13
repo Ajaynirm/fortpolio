@@ -4,7 +4,7 @@ import { RiReactjsLine } from "react-icons/ri";
 const Experience = () => {
   return (
     <>
-      <div className="flex flex-col flex-wrap  justify-center items-center p-40 gap-8">
+      <div className="flex flex-col flex-wrap  justify-center items-center gap-10 p-10">
         <div className="text-5xl font-bold font-serif" id="stack">Explore my experience</div>
 
 
