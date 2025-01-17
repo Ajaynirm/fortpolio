@@ -32,7 +32,7 @@ function Scroller() {
           zIndex: 100,
         }}
       />
-      <div>
+      <div className="select-none">
         <Navbar />
         <Hero />
         <Experience />

@@ -4,14 +4,15 @@ import { RiReactjsLine } from "react-icons/ri";
 const Experience = () => {
   return (
     <>
+
       <div className="flex flex-col flex-wrap  justify-center items-center gap-10 p-10">
-        <div className="text-5xl font-bold font-serif" id="stack">Explore my experience</div>
+        <div className="text-5xl font-bold font-serif text-center animate-pulse" id="stack">Explore my experience</div>
 
 
 
 
         {/* frontend */}
-        <div className="card bg-base-100 w-64 shadow-xl ">
+        <div className="card bg-base-100 w-64 shadow-xl animate-pulse">
   <div className="card-body items-center text-center">
     <h2 className="card-title text-3xl font-bold font-serif">Frontend</h2>
    
@@ -22,10 +23,10 @@ const Experience = () => {
 
 
 
-<div className="flex flex-wrap gap-8">
+<div className="flex flex-wrap justify-center items-center gap-5 lg:gap-10">
     
 {/* react */}
-<div className="card bg-base-100 w-64 shadow-xl md:hover:animate-spin">
+<div className="card bg-base-100  w-32 md:w-64 shadow-xl animate-bounce">
   <figure className="px-5 pt-10">
     <img
       src="https://miro.medium.com/v2/resize:fit:600/1*KUjro0G-igf6P3lvlcDrTQ.png"
@@ -40,7 +41,7 @@ const Experience = () => {
 {/* react end */}
 
 {/* javascript */}
-<div className="card bg-base-100 w-64 shadow-xl">
+<div className="card bg-base-100 w-32 md:w-64 shadow-xl animate-bounce">
   <figure className="px-5 pt-10">
     <img
       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJA6UFV6kBwQkGnmhpKTjNlTnO2WTq9WdjxA&s"
@@ -55,7 +56,7 @@ const Experience = () => {
 {/* js end */}
 
 {/* HTML */}
-<div className="card bg-base-100 w-64 shadow-xl">
+<div className="card bg-base-100 w-32 md:w-64 shadow-xl animate-bounce">
   <figure className="px-5 pt-10">
     <img
       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDdbsj3EHSb7xthYNoOGrwiHG4eDXFndEauw&s"
@@ -70,7 +71,7 @@ const Experience = () => {
 {/* html end */}
 
 {/* css */}
-<div className="card bg-base-100 w-64 shadow-xl">
+<div className="card bg-base-100 w-32 md:w-64 shadow-xl animate-bounce">
   <figure className="px-5 pt-10">
     <img
       
@@ -90,7 +91,7 @@ const Experience = () => {
  {/* backend */}
  <div className="card bg-base-100 w-64 shadow-xl">
   <div className="card-body items-center text-center">
-    <h2 className="card-title text-3xl font-bold font-serif">Backend</h2>
+    <h2 className="card-title text-3xl font-bold font-serif animate-pulse">Backend</h2>
    
   </div>
 </div>
@@ -99,10 +100,10 @@ const Experience = () => {
 
 
 
-<div className="flex flex-wrap gap-8">
+<div className="flex flex-wrap justify-center items-center gap-5 lg:gap-10">
     
 {/* node */}
-<div className="card bg-base-100 w-64 shadow-xl">
+<div className="card bg-base-100 w-32 md:w-64 shadow-xl animate-bounce">
   <figure className="px-5 pt-10">
     <img
       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo5rLh0Ed_H4b8ZM08EK6JZ1gBjVYVDmfmRQ&s"
@@ -117,7 +118,7 @@ const Experience = () => {
 {/* node end */}
 
 {/* express */}
-<div className="card bg-base-100 w-64 shadow-xl">
+<div className="card bg-base-100 w-32 md:w-64 shadow-xl animate-bounce">
   <figure className="px-5 pt-10">
     <img
       src="https://externlabs.com/blogs/wp-content/uploads/2021/11/ExpressJS-Library.jpg"
@@ -129,10 +130,10 @@ const Experience = () => {
    
   </div>
 </div>
-{/* js end */}
+{/* express end */}
 
 {/* Mongodb */}
-<div className="card bg-base-100 w-64 shadow-xl">
+<div className="card bg-base-100 w-32 md:w-64 shadow-xl animate-bounce">
   <figure className="px-5 pt-10">
     <img
       src="https://media.licdn.com/dms/image/D4D12AQETgv5fMiYEXA/article-cover_image-shrink_720_1280/0/1677609185621?e=2147483647&v=beta&t=4Hu56lmQmUTtVSMFDKfipqVq9U1jo41sIJpib0lQoCo"
@@ -144,10 +145,10 @@ const Experience = () => {
    
   </div>
 </div>
-{/* html end */}
+{/* mongodb end */}
 
-{/* sql */}
-<div className="card bg-base-100 w-64 shadow-xl">
+{/* api */}
+<div className="card bg-base-100 w-32 md:w-64 shadow-xl animate-bounce">
   <figure className="px-5 pt-10">
     <img
       
@@ -156,11 +157,11 @@ const Experience = () => {
       className="rounded-xl h-32 " />
   </figure>
   <div className="card-body items-center text-center">
-    <h2 className="card-title font-mono"> RESTfulAPI</h2>
+    <h2 className="card-title font-mono"> API</h2>
    
   </div>
 </div>
-{/* css end */}
+{/* api end */}
 
 
 </div>
