@@ -1,5 +1,5 @@
 import React from "react";
-import { RiReactjsLine } from "react-icons/ri";
+
 
 const Experience = () => {
   return (
@@ -26,12 +26,24 @@ const Experience = () => {
 <div className="flex flex-wrap justify-center items-center gap-5 lg:gap-10">
     
 {/* react */}
-<div className="card bg-base-100  w-32 md:w-64 shadow-xl animate-bounce">
+<div className="card bg-base-100  w-32 md:w-64 shadow-xl animate-pulse">
   <figure className="px-5 pt-10">
-    <img
+    {/* <img
       src="https://miro.medium.com/v2/resize:fit:600/1*KUjro0G-igf6P3lvlcDrTQ.png"
-      alt="Shoes"
-      className="rounded-xl h-32" />
+      
+      className="rounded-xl h-32" /> */}
+       <video 
+         autoPlay 
+         muted 
+         loop 
+        //  width="600" 
+         poster="react.jpg"
+         className="rounded-xl h-32"
+      >
+        <source src="https://cdn.dribbble.com/users/14814/screenshots/16535574/media/948f60cbc10c213696fe10c127cb3062.mp4" type="video/mp4" />
+        
+        Your browser does not support the video tag.
+      </video>
   </figure>
   <div className="card-body items-center text-center">
     <h2 className="card-title font-mono">React</h2>
@@ -41,11 +53,11 @@ const Experience = () => {
 {/* react end */}
 
 {/* javascript */}
-<div className="card bg-base-100 w-32 md:w-64 shadow-xl animate-bounce">
+<div className="card bg-base-100 w-32 md:w-64 shadow-xl animate-pulse">
   <figure className="px-5 pt-10">
     <img
-      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJA6UFV6kBwQkGnmhpKTjNlTnO2WTq9WdjxA&s"
-      alt="Shoes"
+      src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+      alt="Js"
       className="rounded-xl h-32" />
   </figure>
   <div className="card-body items-center text-center">
@@ -56,11 +68,11 @@ const Experience = () => {
 {/* js end */}
 
 {/* HTML */}
-<div className="card bg-base-100 w-32 md:w-64 shadow-xl animate-bounce">
+<div className="card bg-base-100 w-32 md:w-64 shadow-xl animate-pulse">
   <figure className="px-5 pt-10">
     <img
       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDdbsj3EHSb7xthYNoOGrwiHG4eDXFndEauw&s"
-      alt="Shoes"
+      alt="html"
       className="rounded-xl h-32" />
   </figure>
   <div className="card-body items-center text-center">
@@ -71,7 +83,7 @@ const Experience = () => {
 {/* html end */}
 
 {/* css */}
-<div className="card bg-base-100 w-32 md:w-64 shadow-xl animate-bounce">
+<div className="card bg-base-100 w-32 md:w-64 shadow-xl animate-pulse">
   <figure className="px-5 pt-10">
     <img
       
@@ -103,7 +115,7 @@ const Experience = () => {
 <div className="flex flex-wrap justify-center items-center gap-5 lg:gap-10">
     
 {/* node */}
-<div className="card bg-base-100 w-32 md:w-64 shadow-xl animate-bounce">
+<div className="card bg-base-100 w-32 md:w-64 shadow-xl animate-pulse">
   <figure className="px-5 pt-10">
     <img
       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo5rLh0Ed_H4b8ZM08EK6JZ1gBjVYVDmfmRQ&s"
@@ -118,7 +130,7 @@ const Experience = () => {
 {/* node end */}
 
 {/* express */}
-<div className="card bg-base-100 w-32 md:w-64 shadow-xl animate-bounce">
+<div className="card bg-base-100 w-32 md:w-64 shadow-xl animate-pulse">
   <figure className="px-5 pt-10">
     <img
       src="https://externlabs.com/blogs/wp-content/uploads/2021/11/ExpressJS-Library.jpg"
@@ -133,7 +145,7 @@ const Experience = () => {
 {/* express end */}
 
 {/* Mongodb */}
-<div className="card bg-base-100 w-32 md:w-64 shadow-xl animate-bounce">
+<div className="card bg-base-100 w-32 md:w-64 shadow-xl animate-pulse">
   <figure className="px-5 pt-10">
     <img
       src="https://media.licdn.com/dms/image/D4D12AQETgv5fMiYEXA/article-cover_image-shrink_720_1280/0/1677609185621?e=2147483647&v=beta&t=4Hu56lmQmUTtVSMFDKfipqVq9U1jo41sIJpib0lQoCo"
@@ -148,7 +160,7 @@ const Experience = () => {
 {/* mongodb end */}
 
 {/* api */}
-<div className="card bg-base-100 w-32 md:w-64 shadow-xl animate-bounce">
+<div className="card bg-base-100 w-32 md:w-64 shadow-xl animate-pulse">
   <figure className="px-5 pt-10">
     <img
       

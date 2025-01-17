@@ -16,6 +16,10 @@ const Hero = () => {
     toast.success("LeetCode Opening");
     window.open("https://leetcode.com/u/ajaysam397/","_self");
   }
+  const openGeeks = ()=>{
+    toast.success("Geeks for Geeks Opening");
+    window.open("https://www.geeksforgeeks.org/user/ajaysam397/","_self");
+  }
   const openGitHub = ()=>{
     toast.success("GitHub Opening");
     window.open("https://github.com/Ajaynirm","_self");
@@ -27,7 +31,7 @@ const Hero = () => {
 
   return (
     <>
-    <Toaster/>
+    <Toaster />
 
     
     
@@ -51,15 +55,18 @@ const Hero = () => {
               complex problems.
             </p>
 
-            <button className="btn btn-primary font-serif lg:text-lg lg:mt-10" onClick={()=>{toast.success("Scroll down")}}>
+            <button className="btn btn-primary font-serif lg:text-lg lg:mt-10" onClick={()=>{toast.success("Scroll down 👇🏻")}}>
               Get Started
             </button>
             <div className="flex flex-col justify-center items-center py-32 space-y-28 space-x-2">
                 <h2 className="text-5xl font-bold font-serif text-center animate-pulse">Checkout my profile</h2>
                 <div className="flex flex-row md:flex-row justify-center items-center space-y-0 space-x-4">
                     <button className="btn btn-outline btn-primary   lg:text-2xl font-serif " onClick={openLeet}>Leetcode</button>
+                    <button className="btn btn-outline btn-primary  lg:text-2xl font-serif" onClick={openGeeks}>Geeks</button>
                     <button className="btn btn-outline btn-primary lg:text-2xl font-serif" onClick={openGitHub}>Github</button>
                     <button className="btn btn-outline btn-primary  lg:text-2xl font-serif" onClick={openLinkedin}>Linkedin</button>
+
+                    
                 </div>
            </div>
           </div>

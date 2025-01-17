@@ -1,4 +1,4 @@
-
+import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
@@ -9,6 +9,7 @@ import Contact from "./components/Contact";
 
 import { motion, useSpring, useScroll } from "framer-motion"
 import Scroller from "./components/Scroller";
+import BootScreen from "./components/BootScreen";
 
 function ScrollLinked() {
   const { scrollYProgress } = useScroll()
@@ -38,9 +39,22 @@ function ScrollLinked() {
   )
 }
 function App() {
+  const [boot,setBoot]=useState(true);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setBoot(true);
+    }, 2000);
+
+   
+    return () => clearTimeout(timer);
+  }, []);
+
+
   return (
     <>
+     {boot ? <BootScreen /> :
      <Scroller />
+    }
     </>
   );
 }
