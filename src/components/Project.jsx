@@ -9,12 +9,43 @@ const Project = () => {
     </div>
     <div className='flex justify-around flex-wrap gap-20' id='project'>
 
+
+{/* Ai powered learning platform start */}
+<div className="card bg-base-100 w-96 shadow-xl pt-20 pb-5 animate-pulse">
+        <figure>
+          <img className="w-64 h-64"
+            src="https://media.licdn.com/dms/image/v2/D4D12AQF7gapPpu0Xaw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1703644310885?e=1742428800&v=beta&t=K2RmYxotsQxHbn1HQlPqByIKn5TZjoZtXjHNZjSGFA8"
+            alt="laptop-img"
+          />
+        </figure>
+        <div className="card-body">
+          <h2 className="card-title font-serif">
+            AI Powered Learning Platform
+            <div className="badge badge-primary">Developing</div>
+          </h2>
+          <p className="font-serif">
+           a new way of learning for self learner who is eager to learn from free resources with help of Artificial Intelligence
+          </p>
+          <div className="card-actions justify-around">
+            <div
+              className="lg:tooltip"
+              data-tip="Under Development"
+            >
+              <button className="btn btn-outline btn-accent" onClick={()=>window.open('https://github.com/Ajaynirm/', '_blank')}>Git Hub</button>
+            </div>
+            <div className="lg:tooltip" data-tip="Under development">
+              <button className="btn btn-outline btn-primary" onClick={()=>window.open('', '_blank')}>Live Demo</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/*  AI learning platform end */}
  
 {/* laptop start */}
 <div className="card bg-base-100 w-96 shadow-xl pt-20 pb-5 animate-pulse">
         <figure>
           <img className="w-64 h-64"
-            src="./lap_manage.jpg"
+            src="https://www.softwaretestinghelp.com/wp-content/qa/uploads/2023/10/Computer-Inventory-Management.png"
             alt="laptop-img"
           />
         </figure>
@@ -115,7 +146,7 @@ const Project = () => {
         <div className="card-body">
           <h2 className="card-title font-serif">
             Score Streamer
-            <div className="badge badge-primary">NEW</div>
+            <div className="badge badge-primary">Developing</div>
           </h2>
           <p className="font-serif">
             A score streaming platform where match owners can stream their match score and users anywhere from the world can receive
@@ -148,7 +179,7 @@ const Project = () => {
         <div className="card-body">
           <h2 className="card-title font-serif">
             Employee Enroller
-            <div className="badge badge-primary">NEW</div>
+            <div className="badge badge-primary">OLD</div>
           </h2>
           <p className="font-serif">
             A platform to manage employees and admin can add,update, delete and assign work to employees and employee can see that.
@@ -168,6 +199,8 @@ const Project = () => {
       </div>
       {/* employee enroller end*/}
 
+
+
       <div className="card bg-base-100 w-96 shadow-xl pt-20 pb-5 animate-pulse">
         <figure>
           <img
@@ -179,12 +212,12 @@ const Project = () => {
         <div className="card-body">
           <h2 className="card-title font-serif">
             Fast Food Delivery App
-            <div className="badge badge-primary">NEW</div>
+            <div className="badge badge-primary">Developing</div>
           </h2>
           <p className="font-serif">
-            ...
+            
           </p>
-          <div className="card-actions justify-around">
+          {/* <div className="card-actions justify-around">
             <div
               className="lg:tooltip"
               data-tip="click to see the documentation"
@@ -194,7 +227,7 @@ const Project = () => {
             <div className="lg:tooltip" data-tip="click to use this app">
               <button className="btn btn-outline btn-primary" onClick={()=>window.open('https://github.com/Ajaynirm/SecureChat', '_blank')}>Live Demo</button>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
