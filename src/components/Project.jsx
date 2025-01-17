@@ -11,7 +11,7 @@ const Project = () => {
 
 
 {/* Ai powered learning platform start */}
-<div className="card bg-base-100 w-96 shadow-xl pt-20 pb-5 animate-pulse">
+<div className="card bg-base-100 w-96 shadow-xl pt-20 pb-5 animate-">
         <figure>
           <img className="w-64 h-64"
             src="https://media.licdn.com/dms/image/v2/D4D12AQF7gapPpu0Xaw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1703644310885?e=1742428800&v=beta&t=K2RmYxotsQxHbn1HQlPqByIKn5TZjoZtXjHNZjSGFA8"
@@ -42,7 +42,7 @@ const Project = () => {
       {/*  AI learning platform end */}
  
 {/* laptop start */}
-<div className="card bg-base-100 w-96 shadow-xl pt-20 pb-5 animate-pulse">
+<div className="card bg-base-100 w-96 shadow-xl pt-20 pb-5 ">
         <figure>
           <img className="w-64 h-64"
             src="https://www.softwaretestinghelp.com/wp-content/qa/uploads/2023/10/Computer-Inventory-Management.png"
@@ -72,7 +72,7 @@ const Project = () => {
       </div>
       {/*  laptop end */}
 {/* secure chat start */}
-      <div className="card bg-base-100 w-96 shadow-xl pt-20 pb-5 animate-pulse">
+      <div className="card bg-base-100 w-96 shadow-xl pt-20 pb-5 ">
         <figure>
           <img
           className="w-64 h-64"
@@ -104,7 +104,7 @@ const Project = () => {
       </div>
       {/* secure chat end */}
       {/* insta clone start */}
-      <div className="card bg-base-100 w-96 shadow-xl pt-20 pb-5 animate-pulse">
+      <div className="card bg-base-100 w-96 shadow-xl pt-20 pb-5 ">
         <figure>
           <img
           className="w-64 h-64"
@@ -135,7 +135,7 @@ const Project = () => {
       </div>
 {/* insta clone end */}
 {/* cricket project start */}
-<div className="card bg-base-100 w-96 shadow-xl pt-20 pb-5 animate-pulse">
+<div className="card bg-base-100 w-96 shadow-xl pt-20 pb-5 ">
         <figure>
           <img
           className="w-64 h-64"
@@ -168,7 +168,7 @@ const Project = () => {
 
 {/* cricket project end */}
 {/* employee enroller start*/}
-      <div className="card bg-base-100 w-96 shadow-xl pt-20 pb-5 animate-pulse">
+      <div className="card bg-base-100 w-96 shadow-xl pt-20 pb-5 ">
         <figure>
           <img
           className="w-64 h-64"
@@ -201,7 +201,7 @@ const Project = () => {
 
 
 
-      <div className="card bg-base-100 w-96 shadow-xl pt-20 pb-5 animate-pulse">
+      <div className="card bg-base-100 w-96 shadow-xl pt-20 pb-5 ">
         <figure>
           <img
           className="w-64 h-64"

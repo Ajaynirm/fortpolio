@@ -60,7 +60,7 @@ const Hero = () => {
             </button>
             <div className="flex flex-col justify-center items-center py-32 space-y-28 space-x-2">
                 <h2 className="text-5xl font-bold font-serif text-center animate-pulse">Checkout my profile</h2>
-                <div className="flex flex-row md:flex-row justify-center items-center space-y-0 space-x-4">
+                <div className="flex flex-col md:flex-row justify-center items-center space-y-2 space-x-2 gap-5">
                     <button className="btn btn-outline btn-primary   lg:text-2xl font-serif " onClick={openLeet}>Leetcode</button>
                     <button className="btn btn-outline btn-primary  lg:text-2xl font-serif" onClick={openGeeks}>Geeks</button>
                     <button className="btn btn-outline btn-primary lg:text-2xl font-serif" onClick={openGitHub}>Github</button>
