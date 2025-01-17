@@ -42,7 +42,7 @@ function App() {
   const [boot,setBoot]=useState(true);
   useEffect(() => {
     const timer = setTimeout(() => {
-      setBoot(true);
+      setBoot(false);
     }, 2000);
 
    
