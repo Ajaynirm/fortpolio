@@ -1,6 +1,7 @@
 import React from "react";
 import toast,{Toaster} from "react-hot-toast";
 import './animations.css';
+import Frames from "./Frames";
 
 const Hero = () => {
 
@@ -55,19 +56,29 @@ const Hero = () => {
               complex problems.
             </p>
 
-            <button className="btn btn-primary font-serif lg:text-lg lg:mt-10" onClick={()=>{toast.success("Scroll down 👇🏻")}}>
+            <button className="btn btn-primary bg-violet-500  font-serif lg:text-lg lg:mt-10" onClick={()=>{toast.success("Scroll down 👇🏻")}}>
               Get Started
             </button>
             <div className="flex flex-col justify-center items-center py-32 space-y-28 space-x-2">
                 <h2 className="text-5xl font-bold font-serif text-center animate-pulse">Checkout my profile</h2>
-                <div className="flex flex-col md:flex-row justify-center items-center space-y-2 space-x-2 gap-5">
-                    <button className="btn btn-outline btn-primary   lg:text-2xl font-serif " onClick={openLeet}>Leetcode</button>
-                    <button className="btn btn-outline btn-primary  lg:text-2xl font-serif" onClick={openGeeks}>Geeks</button>
-                    <button className="btn btn-outline btn-primary lg:text-2xl font-serif" onClick={openGitHub}>Github</button>
-                    <button className="btn btn-outline btn-primary  lg:text-2xl font-serif" onClick={openLinkedin}>Linkedin</button>
+                <div className="flex flex-row  justify-center items-center  gap-8">
+                    <button className="  lg:h-20 lg:text-2xl font-serif " onClick={openLeet}>
+                      <img className="h-12 w-15" src="https://upload.wikimedia.org/wikipedia/commons/8/8e/LeetCode_Logo_1.png" alt="" />
+                    </button>
+                    <button className=" lg:h-20  lg:text-2xl font-serif" onClick={openGeeks}>
+                      <img  src="https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg" alt="" />
+                    </button>
+                    <button className="  lg:h-20 lg:text-2xl font-serif" onClick={openGitHub}>
+                      <img className="h-12 w-15" src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png" alt="" />
+                    </button>
+                    <button className=" h-15 lg:h-20 lg:text-2xl font-serif" onClick={openLinkedin}>
+                      <img  className="h-12 w-15" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/120px-LinkedIn_icon.svg.png" alt="" />
+                    </button>
 
+                  
                     
                 </div>
+                
            </div>
           </div>
           

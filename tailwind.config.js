@@ -29,7 +29,7 @@ export default {
     daisyui,
   ],
   daisyui: {
-    themes: ["dark","forest"],
+    themes: ["dark","light"],
   },
   darkMode: ['selector', '[data-theme="night"]']
 }
