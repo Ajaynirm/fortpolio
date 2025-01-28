@@ -1,188 +1,138 @@
 import React from "react";
 
-
 const Experience = () => {
   return (
     <>
-
-      <div className="flex flex-col flex-wrap  justify-center items-center gap-10 p-10">
-        <div className="text-5xl font-bold font-serif text-center animate-pulse" id="stack">Explore my experience</div>
-
-
-
+      <div className="flex flex-col flex-wrap  justify-center items-center gap-16 p-10 pb-72">
+        <div className="text-5xl font-bold font-serif text-center " id="stack">
+          Explore my experience
+        </div>
 
         {/* frontend */}
-        <div className="card bg-base-100 w-64 shadow-xl animate-pulse">
-  <div className="card-body items-center text-center">
-    <h2 className="card-title text-3xl font-bold font-serif">Frontend</h2>
-   
-  </div>
-</div>
-{/* fr end */}
+        <div className="card bg-base-100 h-24 w-64 shadow-xl animate-pulse pb-20">
+          <div className="card-body items-center text-center">
+            <h2 className=" text-3xl font-bold font-serif">
+              Frontend
+            </h2>
+          </div>
+        </div>
+        {/* fr end */}
 
+        <div className="flex flex-wrap justify-center items-center gap-5 lg:gap-20">
 
+          {/* react */}
+          <figure className="px-5 pt-10">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/120px-React-icon.svg.png"
+              className="rounded-xl h-10 lg:h-28"
+            />
+          </figure>
+          {/* react end */}
 
+          {/* javascript */}
 
-<div className="flex flex-wrap justify-center items-center gap-5 lg:gap-10">
-    
-{/* react */}
-<div className="card bg-base-100  w-32 md:w-64 shadow-xl animate-pulse">
-  <figure className="px-5 pt-10">
-    {/* <img
-      src="https://miro.medium.com/v2/resize:fit:600/1*KUjro0G-igf6P3lvlcDrTQ.png"
-      
-      className="rounded-xl h-32" /> */}
-       <video 
-         autoPlay 
-         muted 
-         loop 
-        //  width="600" 
-         poster="react.jpg"
-         className="rounded-xl h-32"
-      >
-        <source src="https://cdn.dribbble.com/users/14814/screenshots/16535574/media/948f60cbc10c213696fe10c127cb3062.mp4" type="video/mp4" />
-        
-        Your browser does not support the video tag.
-      </video>
-  </figure>
-  <div className="card-body items-center text-center">
-    <h2 className="card-title font-mono">React</h2>
-   
-  </div>
-</div>
-{/* react end */}
+          <figure className="px-5 pt-10">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+              alt="Js"
+              className="rounded-xl h-10 lg:h-24"
+            />
+          </figure>
 
-{/* javascript */}
-<div className="card bg-base-100 w-32 md:w-64 shadow-xl animate-pulse">
-  <figure className="px-5 pt-10">
-    <img
-      src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
-      alt="Js"
-      className="rounded-xl h-32" />
-  </figure>
-  <div className="card-body items-center text-center">
-    <h2 className="card-title font-mono">JavaScript</h2>
-   
-  </div>
-</div>
-{/* js end */}
+          {/* js end */}
 
-{/* HTML */}
-<div className="card bg-base-100 w-32 md:w-64 shadow-xl animate-pulse">
-  <figure className="px-5 pt-10">
-    <img
-      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDdbsj3EHSb7xthYNoOGrwiHG4eDXFndEauw&s"
-      alt="html"
-      className="rounded-xl h-32" />
-  </figure>
-  <div className="card-body items-center text-center">
-    <h2 className="card-title font-mono">HTML</h2>
-   
-  </div>
-</div>
-{/* html end */}
+          {/* HTML */}
 
-{/* css */}
-<div className="card bg-base-100 w-32 md:w-64 shadow-xl animate-pulse">
-  <figure className="px-5 pt-10">
-    <img
-      
-      src="https://blob.sololearn.com/assets/introduction-CSS-cover.png"
-      alt="Shoes"
-      className="rounded-xl h-32 " />
-  </figure>
-  <div className="card-body items-center text-center">
-    <h2 className="card-title font-mono">CSS</h2>
-   
-  </div>
-</div>
-{/* css end */}
+          <figure className="px-5 pt-10">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/340px-HTML5_logo_and_wordmark.svg.png"
+              alt="html"
+              className="rounded-xl h-10 lg:h-32"
+            />
+          </figure>
 
+          {/* html end */}
 
-</div>
- {/* backend */}
- <div className="card bg-base-100 w-64 shadow-xl">
-  <div className="card-body items-center text-center">
-    <h2 className="card-title text-3xl font-bold font-serif animate-pulse">Backend</h2>
-   
-  </div>
-</div>
-{/* bc end */}
+          {/* css */}
 
+          <figure className="px-5 pt-10">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/240px-CSS3_logo.svg.png"
+              alt="Shoes"
+              className="rounded-xl h-10 lg:h-28 "
+            />
+          </figure>
 
+          {/* css end */}
+          {/*  */}
+          <figure className="px-5 pt-10">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/240px-Tailwind_CSS_Logo.svg.png"
+              alt="Shoes"
+              className="rounded-xl h-6 lg:h-24"
+            />
+          </figure>
+        </div>
+        {/* backend */}
+        <div className="card bg-base-100 w-64 shadow-xl">
+          <div className="card-body items-center text-center">
+            <h2 className="card-title text-3xl font-bold font-serif animate-pulse">
+              Backend
+            </h2>
+          </div>
+        </div>
+        {/* bc end */}
 
+        <div className="flex flex-wrap justify-center items-center gap-5 lg:gap-10">
+          {/* node */}
+          <figure className="px-5 pt-10">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/440px-Node.js_logo.svg.png"
+              alt="Shoes"
+              className="rounded-xl h-6 lg:h-24"
+            />
+          </figure>
 
-<div className="flex flex-wrap justify-center items-center gap-5 lg:gap-10">
-    
-{/* node */}
-<div className="card bg-base-100 w-32 md:w-64 shadow-xl animate-pulse">
-  <figure className="px-5 pt-10">
-    <img
-      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo5rLh0Ed_H4b8ZM08EK6JZ1gBjVYVDmfmRQ&s"
-      alt="Shoes"
-      className="rounded-xl h-32" />
-  </figure>
-  <div className="card-body items-center text-center">
-    <h2 className="card-title font-mono">Node</h2>
-   
-  </div>
-</div>
-{/* node end */}
+          {/* node end */}
 
-{/* express */}
-<div className="card bg-base-100 w-32 md:w-64 shadow-xl animate-pulse">
-  <figure className="px-5 pt-10">
-    <img
-      src="https://externlabs.com/blogs/wp-content/uploads/2021/11/ExpressJS-Library.jpg"
-      alt="Shoes"
-      className="rounded-xl h-32" />
-  </figure>
-  <div className="card-body items-center text-center">
-    <h2 className="card-title font-mono">Express</h2>
-   
-  </div>
-</div>
-{/* express end */}
+          {/* express */}
 
-{/* Mongodb */}
-<div className="card bg-base-100 w-32 md:w-64 shadow-xl animate-pulse">
-  <figure className="px-5 pt-10">
-    <img
-      src="https://media.licdn.com/dms/image/D4D12AQETgv5fMiYEXA/article-cover_image-shrink_720_1280/0/1677609185621?e=2147483647&v=beta&t=4Hu56lmQmUTtVSMFDKfipqVq9U1jo41sIJpib0lQoCo"
-      alt="Shoes"
-      className="rounded-xl h-32" />
-  </figure>
-  <div className="card-body items-center text-center">
-    <h2 className="card-title font-mono">MongoDB</h2>
-   
-  </div>
-</div>
-{/* mongodb end */}
+          <figure className="px-5 pt-10">
+            <img
+              // src="https://externlabs.com/blogs/wp-content/uploads/2021/11/ExpressJS-Library.jpg"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Expressjs.png/440px-Expressjs.png"
+              alt="Shoes"
+              className="rounded-xl h-6 lg:h-16"
+            />
+          </figure>
 
-{/* api */}
-<div className="card bg-base-100 w-32 md:w-64 shadow-xl animate-pulse">
-  <figure className="px-5 pt-10">
-    <img
-      
-      src="https://miro.medium.com/v2/resize:fit:1400/1*GPQ7MDPCOdpdJSXP2f3Jjw.png"
-      alt="Shoes"
-      className="rounded-xl h-32 " />
-  </figure>
-  <div className="card-body items-center text-center">
-    <h2 className="card-title font-mono"> API</h2>
-   
-  </div>
-</div>
-{/* api end */}
+          {/* express end */}
 
+          {/* Mongodb */}
 
-</div>
+          <figure className="px-5 pt-10">
+            <img
+              // src="https://media.licdn.com/dms/image/D4D12AQETgv5fMiYEXA/article-cover_image-shrink_720_1280/0/1677609185621?e=2147483647&v=beta&t=4Hu56lmQmUTtVSMFDKfipqVq9U1jo41sIJpib0lQoCo"
+              src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/MongoDB_Fores-Green.svg/500px-MongoDB_Fores-Green.svg.png"
+              alt="Shoes"
+              className="rounded-xl h-6 lg:h-16"
+            />
+          </figure>
 
+          {/* mongodb end */}
 
+          {/* api */}
 
+          <figure className="px-5 pt-10">
+            <img
+              src="https://miro.medium.com/v2/resize:fit:1400/1*GPQ7MDPCOdpdJSXP2f3Jjw.png"
+              alt="Shoes"
+              className="rounded-xl h-10 lg:h-20 "
+            />
+          </figure>
 
-
-
+          {/* api end */}
+        </div>
       </div>
     </>
   );

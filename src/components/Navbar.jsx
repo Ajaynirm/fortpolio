@@ -9,15 +9,16 @@ const Navbar = () => {
 
 
 
-<div className="  top-0 left-0 w-full bg-violet-600 text-white shadow-md z-50 navbar bg-base-300 ">
+<div className="  top-0 left-0 w-full bg-violet-700 text-white shadow-md z-50 navbar bg-base-300 ">
 <div className="avatar">
   {/* <div className="w-16  rounded-full">
     <img src="./" alt='profile' />
   </div> */}
 </div>
   <div className="flex-1 px-2 lg:flex-none">
-  <span className="loading loading-infinity loading-lg text-blue-400"></span>
-    <a className="text-lg font-bold font-mono">Ajay C</a>
+ 
+  <span className="loading loading-ring loading-lg "></span>
+    <a className="text-lg font-bold font-mono cursor-progress">Ajay C</a>
     
   </div>
 

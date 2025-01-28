@@ -7,30 +7,26 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+
     extend: {},
-    screens:{
-      'sm': '640px',
-      // => @media (min-width: 640px) { ... }
-
-      'md': '768px',
-      // => @media (min-width: 768px) { ... }
-
-      'lg': '1024px',
-      // => @media (min-width: 1024px) { ... }
-
-      'xl': '1280px',
-      // => @media (min-width: 1280px) { ... }
-
-      '2xl': '1536px',
-      // => @media (min-width: 1536px) { ... }
-    }
+   
   },
   plugins: [
     daisyui,
   ],
   daisyui: {
-    themes: ["dark","light"],
+    themes: [
+      {
+        myDarkTheme: {
+          "primary": "#4CAF50",
+          "secondary": "#FF5722",
+          "accent": "#FFC107",
+          "neutral": "#121212", // Your dark background color
+          "base-100": "#181818", // Page background
+        },
+      }
+      ],
   },
-  darkMode: ['selector', '[data-theme="night"]']
+  darkMode: ['selector', '[data-theme="light"]']
 }
 
