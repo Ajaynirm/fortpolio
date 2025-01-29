@@ -34,9 +34,9 @@ const Hero = () => {
       <div className=" select-none" id="about">
         <div className=" text-center">
           <div className="flex  flex-col px-10 py-32 lg:py-32 lg:pt-64 lg:px-16 gap-10">
-            <h1 className="text-5xl font-bold font-serif fade-in">
+            <h1 className="text-4xl lg:text-5xl font-bold font-serif fade-in">
               Hello there
-              <h1 className="text-5xl sm:text-5xl font-bold font-serif  animate-pulse ">
+              <h1 className="text-4xl lg:text-5xl sm:text-5xl font-bold font-serif  animate-pulse ">
                 I am Ajay
               </h1>
             </h1>
@@ -44,7 +44,7 @@ const Hero = () => {
             <h2 className="text-4xl font-serif animate-bounce">
               Junior Software Developer
             </h2>
-            <p className="text-base md:text-xl lg:text-base py-2 lg:py-6 font-mono animate-pulse">
+            <p className="text-sm md:text-xl lg:text-base py-2 lg:py-6 font-mono animate-pulse">
               a passionate and enthusiastic software developer eager to make an
               impact in the tech industry. With a strong foundation in both
               front-end and back-end development, I thrive in dynamic
@@ -60,8 +60,8 @@ const Hero = () => {
             >
               Get Started
             </button>
-            <div className="flex flex-col justify-center items-center py-32 space-y-28 space-x-2  ">
-              <div className="card bg-base-100 w-64 lg:w-[500px] shadow-xl border-purple-500 border-2 border-solid">
+            <div className="flex flex-col justify-center items-center py-32 space-y-28 space-x-2" id="profile">
+              <div className="card bg-base-100  lg:w-[700px] shadow-xl border-purple-500 border-2 border-solid">
           <div className="card-body items-center text-center">
             <h2 className="card-title text-2xl lg:text-4xl font-bold font-serif animate-pulse">
               Checkout my profile
@@ -70,7 +70,8 @@ const Hero = () => {
         </div>
               <div className="flex flex-row  justify-center items-center  gap-8 lg:gap-60 ">
                 <button
-                  className="  lg:h-20 lg:text-2xl font-serif animate-spin"
+                  className="  lg:h-20 lg:text-2xl font-serif animate-spin "
+                  style={{ animationDuration: "3s" }}
                   onClick={openLeet}
                 >
                   <img
@@ -81,6 +82,7 @@ const Hero = () => {
                 </button>
                 <button
                   className=" lg:h-20  lg:text-2xl font-serif animate-spin"
+                  style={{ animationDuration: "3s" }}
                   onClick={openGeeks}
                 >
                   <img
@@ -90,6 +92,7 @@ const Hero = () => {
                 </button>
                 <button
                   className="  lg:h-20 lg:text-2xl font-serif animate-spin"
+                  style={{ animationDuration: "3s" }}
                   onClick={openGitHub}
                 >
                   <img
@@ -100,6 +103,7 @@ const Hero = () => {
                 </button>
                 <button
                   className=" h-15 lg:h-20 lg:text-2xl font-serif animate-spin"
+                  style={{ animationDuration: "3s" }}
                   onClick={openLinkedin}
                 >
                   <img

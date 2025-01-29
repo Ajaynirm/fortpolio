@@ -9,7 +9,7 @@ const Experience = () => {
 
         <div className="card bg-base-100  lg:w-[700px] shadow-xl border-purple-500 border-2 border-solid">
           <div className="card-body items-center text-center">
-            <h2 className="card-title text-2xl lg:text-5xl font-bold font-serif animate-pulse">
+            <h2 className="card-title text-2xl lg:text-4xl font-bold font-serif animate-pulse">
             Explore my experience
             </h2>
           </div>
@@ -27,7 +27,7 @@ const Experience = () => {
         <div className="flex flex-wrap justify-center items-center gap-5 lg:gap-20">
 
           {/* react */}
-          <figure className="px-5 pt-10 animate-bounce">
+          <figure className="px-5 pt-10 animate-bounce"  style={{ animationDuration: "3s" }}>
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/120px-React-icon.svg.png"
               className="rounded-xl h-10 lg:h-28"
@@ -37,7 +37,7 @@ const Experience = () => {
 
           {/* javascript */}
 
-          <figure className="px-5 pt-10 animate-bounce">
+          <figure className="px-5 pt-10 animate-bounce"  style={{ animationDuration: "3s" }}>
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
               alt="Js"
@@ -49,7 +49,7 @@ const Experience = () => {
 
           {/* HTML */}
 
-          <figure className="px-5 pt-10 animate-bounce">
+          <figure className="px-5 pt-10 animate-bounce "  style={{ animationDuration: "3s" }}>
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/340px-HTML5_logo_and_wordmark.svg.png"
               alt="html"
@@ -61,7 +61,7 @@ const Experience = () => {
 
           {/* css */}
 
-          <figure className="px-5 pt-10  animate-bounce">
+          <figure className="px-5 pt-10  animate-bounce"  style={{ animationDuration: "3s" }}>
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/240px-CSS3_logo.svg.png"
               alt="Shoes"
@@ -71,7 +71,7 @@ const Experience = () => {
 
           {/* css end */}
           {/*  */}
-          <figure className="px-5 pt-10 animate-bounce">
+          <figure className="px-5 pt-10 animate-bounce"  style={{ animationDuration: "3s" }}>
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/240px-Tailwind_CSS_Logo.svg.png"
               alt="Shoes"
@@ -82,7 +82,7 @@ const Experience = () => {
         {/* backend */}
         <div className="card bg-base-100 w-64 shadow-xl border-purple-500 border-2 border-solid">
           <div className="card-body items-center text-center">
-            <h2 className="card-title text-3xl font-bold font-serif animate-pulse">
+            <h2 className="card-title text-xl lg:text-3xl font-bold font-serif animate-pulse">
               Backend
             </h2>
           </div>
@@ -91,7 +91,7 @@ const Experience = () => {
 
         <div className="flex flex-wrap justify-center items-center gap-5 lg:gap-10">
           {/* node */}
-          <figure className="px-5 pt-10 animate-bounce">
+          <figure className="px-5 pt-10 animate-bounce"  style={{ animationDuration: "3s" }}>
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/440px-Node.js_logo.svg.png"
               alt="Shoes"
@@ -103,7 +103,7 @@ const Experience = () => {
 
           {/* express */}
 
-          <figure className="px-5 pt-10 animate-bounce">
+          <figure className="px-5 pt-10 animate-bounce"  style={{ animationDuration: "3s" }}>
             <img
               // src="https://externlabs.com/blogs/wp-content/uploads/2021/11/ExpressJS-Library.jpg"
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Expressjs.png/440px-Expressjs.png"
@@ -116,7 +116,7 @@ const Experience = () => {
 
           {/* Mongodb */}
 
-          <figure className="px-5 pt-10 animate-bounce">
+          <figure className="px-5 pt-10 animate-bounce"  style={{ animationDuration: "3s" }}>
             <img
               // src="https://media.licdn.com/dms/image/D4D12AQETgv5fMiYEXA/article-cover_image-shrink_720_1280/0/1677609185621?e=2147483647&v=beta&t=4Hu56lmQmUTtVSMFDKfipqVq9U1jo41sIJpib0lQoCo"
               src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/MongoDB_Fores-Green.svg/500px-MongoDB_Fores-Green.svg.png"
@@ -129,7 +129,7 @@ const Experience = () => {
 
           {/* api */}
 
-          <figure className="px-5 pt-10 animate-bounce">
+          <figure className="px-5 pt-10 animate-bounce"  style={{ animationDuration: "3s" }}>
             <img
               src="https://miro.medium.com/v2/resize:fit:1400/1*GPQ7MDPCOdpdJSXP2f3Jjw.png"
               alt="Shoes"

@@ -15,18 +15,7 @@ export default {
     daisyui,
   ],
   daisyui: {
-    themes: [
-      {
-        myDarkTheme: {
-          "primary": "#4CAF50",
-          "secondary": "#FF5722",
-          "accent": "#FFC107",
-          "neutral": "#121212", // Your dark background color
-          "base-100": "#181818", // Page background
-        },
-      },
-      ["light", "dark"]
-      ],
+    themes: ["light", "dark"]
   },
   darkMode: ['selector', '[data-theme="light"]']
 }
