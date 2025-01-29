@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
+import SideMenu from './SideMenu';
 const Navbar = () => {
     const [loading,setLoading]=useState(true); 
     const img1="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp";
@@ -25,7 +26,7 @@ const Navbar = () => {
   
 
   
-  <div className="flex flex-1 justify-end px-2">
+  <div className="flex flex-1 justify-end px-16">
   <label className="grid cursor-pointer place-items-center">
   <input
     type="checkbox"
@@ -62,21 +63,7 @@ const Navbar = () => {
 </label>
     <div className="flex items-stretch">
 
-    <ul className="menu menu-horizontal px-2">
-    
-      <li>
-        <details>
-          <summary>Menu</summary>
-          <ul className="bg-base-100 rounded-t-none p-2">
-            <li><a href='#about'>About</a></li>
-            <li><a href='#stack'>stack</a></li>
-            <li><a href='#project'>project</a></li>
-            <li><a href='#contact'>contact</a></li>
-          </ul>
-        </details>
-      </li>
-    </ul>
-      
+    <SideMenu />  
      
   </div>
 </div>

@@ -26,9 +26,9 @@ function Scroller() {
           top: 0,
           left: 0,
           right: 0,
-          height: 6,
+          height: 4,
           originX: 0,
-          backgroundColor: "green",
+          backgroundColor: "#a855f7",
           zIndex: 100,
         }}
       />
