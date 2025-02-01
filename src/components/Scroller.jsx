@@ -28,7 +28,7 @@ function Scroller() {
           right: 0,
           height: 4,
           originX: 0,
-          backgroundColor: "#a855f7",
+          backgroundColor: "#493D9E",
           zIndex: 100,
         }}
       />
