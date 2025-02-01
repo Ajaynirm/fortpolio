@@ -10,7 +10,7 @@ const Navbar = () => {
 
 
 
-<div className="  top-0 left-0 w-full bg-violet-700 text-white shadow-md z-50 navbar bg-base-300 ">
+<div className="  top-0 left-0 w-full bg-indigo-700 text-white shadow-md z-50 navbar bg-base-300 ">
 <div className="avatar">
   {/* <div className="w-16  rounded-full">
     <img src="./" alt='profile' />
@@ -26,7 +26,7 @@ const Navbar = () => {
   
 
   
-  <div className="flex flex-1 justify-end px-16">
+  <div className="flex flex-1 justify-end px-16 lg:px-40">
   <label className="grid cursor-pointer place-items-center">
   <input
     type="checkbox"

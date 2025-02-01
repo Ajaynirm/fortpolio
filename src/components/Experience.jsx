@@ -3,11 +3,11 @@ import React from "react";
 const Experience = () => {
   return (
     <>
-      <div className="flex flex-col flex-wrap  justify-center items-center gap-16 p-10 pb-72 " id="stack" >
+      <div className="flex flex-col flex-wrap  justify-center items-center gap-16 p-10 py-32 " id="stack" >
 
        
 
-        <div className="card bg-base-100  lg:w-[700px] shadow-xl border-purple-500 border-2 border-solid">
+        <div className="card bg-base-100  lg:w-[700px] shadow-xl border-indigo-700 border-2 border-solid">
           <div className="card-body items-center text-center">
             <h2 className="card-title text-2xl lg:text-4xl font-bold font-serif animate-pulse">
             Explore my experience
@@ -15,7 +15,7 @@ const Experience = () => {
           </div>
         </div>
         {/* Programming */}
-        <div className="card bg-base-100 h-32 w-64 shadow-xl animate-pulse  border-purple-500 border-2 border-solid">
+        <div className="card bg-base-100 h-32 w-64 shadow-xl animate-pulse  border-indigo-700 border-2 border-solid">
           <div className="card-body items-center text-center">
             <h2 className=" text-xl lg:text-3xl font-bold font-serif">
               Programming Languages
@@ -57,7 +57,7 @@ const Experience = () => {
           {/* c end */}
       </div>   
       
-        <div className="card bg-base-100 h-24 w-64 shadow-xl animate-pulse pb-20 border-purple-500 border-2 border-solid">
+        <div className="card bg-base-100 h-24 w-64 shadow-xl animate-pulse pb-20 border-indigo-700 border-2 border-solid">
           <div className="card-body items-center text-center">
             <h2 className=" text-xl lg:text-3xl font-bold font-serif">
               Frontend
@@ -112,7 +112,7 @@ const Experience = () => {
           </figure>
         </div>
         {/* backend */}
-        <div className="card bg-base-100 w-64 shadow-xl border-purple-500 border-2 border-solid">
+        <div className="card bg-base-100 w-64 shadow-xl border-indigo-700 border-2 border-solid">
           <div className="card-body items-center text-center">
             <h2 className="card-title text-xl lg:text-3xl font-bold font-serif animate-pulse">
               Backend
@@ -173,6 +173,7 @@ const Experience = () => {
         </div>
         
       </div>
+    
     </>
   );
 };

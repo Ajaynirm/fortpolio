@@ -4,9 +4,9 @@ import "./project.css";
 const Project = () => {
   return (
     <>
-      <div id="project" className="flex justify-center items-center gap-10 p-10">
+      <div id="project" className="flex justify-center items-center gap-10 px-10 ">
         
-        <div className="card bg-base-100 w-64 lg:w-[500px] shadow-xl border-purple-500 border-2 border-solid mb-10">
+        <div className="card bg-base-100 w-64 lg:w-[500px] shadow-xl border-indigo-700 border-2 border-solid mb-10">
           <div className="card-body items-center text-center ">
             <h2 className="card-title text-2xl lg:text-4xl font-bold font-serif animate-pulse">
                Projects
@@ -16,7 +16,7 @@ const Project = () => {
       </div>
       <div className="flex justify-around flex-wrap gap-20 " >
         {/* Ai powered learning platform start */}
-        <div className="card bg-base-100 w-96 shadow-xl pt-20 pb-5 border-purple-700 border-2 border-solid">
+        <div className="card bg-base-100 w-96 shadow-xl pt-20 pb-5 border-indigo-700 border-2 border-solid">
           <figure>
             <img
               className="w-64 h-64"
@@ -58,7 +58,7 @@ const Project = () => {
         {/*  AI learning platform end */}
 
         {/* laptop start */}
-        <div className="card bg-base-100 w-96 shadow-xl pt-20 pb-5 border-purple-700 border-2 border-solid">
+        <div className="card bg-base-100 w-96 shadow-xl pt-20 pb-5 border-indigo-700 border-2 border-solid">
           <figure>
             <img
               className="w-64 h-64"
@@ -110,7 +110,7 @@ const Project = () => {
         </div>
         {/*  laptop end */}
         {/* secure chat start */}
-        <div className="card bg-base-100 w-96 shadow-xl pt-20 pb-5 border-purple-700 border-2 border-solid ">
+        <div className="card bg-base-100 w-96 shadow-xl pt-20 pb-5 border-indigo-700 border-2 border-solid ">
           <figure>
             <img className="w-64 h-64" src="./securechat.jpg" alt="Shoes" />
           </figure>
@@ -158,7 +158,7 @@ const Project = () => {
         </div>
         {/* secure chat end */}
         {/* insta clone start */}
-        <div className="card bg-base-100 w-96 shadow-xl pt-20 pb-5 border-purple-700 border-2 border-solid ">
+        <div className="card bg-base-100 w-96 shadow-xl pt-20 pb-5 border-indigo-700 border-2 border-solid ">
           <figure>
             <img className="w-64 h-64" src="./instaclone.jpg" alt="Shoes" />
           </figure>
@@ -203,7 +203,7 @@ const Project = () => {
         </div>
         {/* insta clone end */}
         {/* cricket project start */}
-        <div className="card bg-base-100 w-96 shadow-xl pt-20 pb-5 border-purple-700 border-2 border-solid ">
+        <div className="card bg-base-100 w-96 shadow-xl pt-20 pb-5 border-indigo-700 border-2 border-solid ">
           <figure>
             <img className="w-64 h-64" src="./cric.jpg" alt="Shoes" />
           </figure>
@@ -253,7 +253,7 @@ const Project = () => {
 
         {/* cricket project end */}
         {/* employee enroller start*/}
-        <div className="card bg-base-100 w-96 shadow-xl pt-20 pb-5 border-purple-700 border-2 border-solid ">
+        <div className="card bg-base-100 w-96 shadow-xl pt-20 pb-5 border-indigo-700 border-2 border-solid ">
           <figure>
             <img
               className="w-64 h-64"
@@ -305,7 +305,7 @@ const Project = () => {
         </div>
         {/* employee enroller end*/}
 
-        <div className="card bg-base-100 w-96 shadow-xl pt-20 pb-5 border-purple-700 border-2 border-solid ">
+        <div className="card bg-base-100 w-96 shadow-xl pt-20 pb-5 border-indigo-700 border-2 border-solid ">
           <figure>
             <img
               className="w-64 h-64"

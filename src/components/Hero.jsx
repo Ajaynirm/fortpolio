@@ -33,7 +33,7 @@ const Hero = () => {
 
       <div className=" select-none" id="about">
         <div className=" text-center">
-          <div className="flex  flex-col px-10 py-32 lg:py-32 lg:pt-64 lg:px-16 gap-10">
+          <div className="flex  flex-col px-10 lg:pt-64 lg:px-16 gap-10">
             <h1 className="text-4xl lg:text-5xl font-bold font-serif fade-in">
               Hello there
               <h1 className="text-4xl lg:text-5xl sm:text-5xl font-bold font-serif  animate-pulse ">
@@ -53,7 +53,7 @@ const Hero = () => {
             </p>
 
             <button
-              className="btn  bg-purple-700 hover:bg-purple-800  font-serif lg:text-lg lg:mt-10"
+              className="btn  bg-indigo-700  font-serif lg:text-lg lg:mt-10"
               onClick={() => {
                 toast.success("Scroll down 👇🏻");
               }}
@@ -61,7 +61,7 @@ const Hero = () => {
               Get Started
             </button>
             <div className="flex flex-col justify-center items-center py-32 space-y-28 space-x-2" id="profile">
-              <div className="card bg-base-100  lg:w-[700px] shadow-xl border-purple-500 border-2 border-solid">
+              <div className="card bg-base-100  lg:w-[700px] shadow-xl border-indigo-700 border-2 border-solid">
           <div className="card-body items-center text-center">
             <h2 className="card-title text-2xl lg:text-4xl font-bold font-serif animate-pulse">
               Checkout my profile
