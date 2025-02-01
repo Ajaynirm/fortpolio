@@ -14,7 +14,49 @@ const Experience = () => {
             </h2>
           </div>
         </div>
-        {/* frontend */}
+        {/* Programming */}
+        <div className="card bg-base-100 h-32 w-64 shadow-xl animate-pulse  border-purple-500 border-2 border-solid">
+          <div className="card-body items-center text-center">
+            <h2 className=" text-xl lg:text-3xl font-bold font-serif">
+              Programming Languages
+            </h2>
+          </div>
+        </div>
+        <div className="flex flex-wrap justify-center items-center gap-5 lg:gap-10">
+        {/* Java */}
+        <figure className="px-5 pt-10 animate-bounce"  style={{ animationDuration: "3s" }}>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/242px-Java_programming_language_logo.svg.png"
+              className="rounded-xl h-10 lg:h-28"
+            />
+          </figure>
+          {/* Java end */}
+          {/* javascript */}
+          <figure className="px-5 pt-10 animate-bounce"  style={{ animationDuration: "3s" }}>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+              className="rounded-xl h-10 lg:h-28"
+            />
+          </figure>
+          {/* javascript end */}
+{/* python */}
+<figure className="px-5 pt-10 animate-bounce"  style={{ animationDuration: "3s" }}>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/230px-Python-logo-notext.svg.png"
+              className="rounded-xl h-10 lg:h-28"
+            />
+          </figure>
+          {/* python end */}
+          {/* c */}
+          <figure className="px-5 pt-10 animate-bounce"  style={{ animationDuration: "3s" }}>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/archive/3/35/20220802133510%21The_C_Programming_Language_logo.svg/120px-The_C_Programming_Language_logo.svg.png"
+              className="rounded-xl h-10 lg:h-28"
+            />
+          </figure>
+          {/* c end */}
+      </div>   
+      
         <div className="card bg-base-100 h-24 w-64 shadow-xl animate-pulse pb-20 border-purple-500 border-2 border-solid">
           <div className="card-body items-center text-center">
             <h2 className=" text-xl lg:text-3xl font-bold font-serif">
@@ -35,17 +77,7 @@ const Experience = () => {
           </figure>
           {/* react end */}
 
-          {/* javascript */}
-
-          <figure className="px-5 pt-10 animate-bounce"  style={{ animationDuration: "3s" }}>
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
-              alt="Js"
-              className="rounded-xl h-10 lg:h-24"
-            />
-          </figure>
-
-          {/* js end */}
+         
 
           {/* HTML */}
 
@@ -139,6 +171,7 @@ const Experience = () => {
 
           {/* api end */}
         </div>
+        
       </div>
     </>
   );
