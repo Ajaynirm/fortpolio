@@ -1,121 +1,160 @@
 import React from "react";
 
 const Experience = () => {
+  const programmingImages = [
+    "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg",
+    "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/230px-Python-logo-notext.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/archive/3/35/20220802133510%21The_C_Programming_Language_logo.svg/120px-The_C_Programming_Language_logo.svg.png",
+  ];
+  const frontendImages = [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/120px-React-icon.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/340px-HTML5_logo_and_wordmark.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/240px-CSS3_logo.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/240px-Tailwind_CSS_Logo.svg.png",
+  ];
+  const backendImages = [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/440px-Node.js_logo.svg.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Expressjs.png/440px-Expressjs.png",
+    "https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/MongoDB_Fores-Green.svg/500px-MongoDB_Fores-Green.svg.png",
+    "https://miro.medium.com/v2/resize:fit:1400/1*GPQ7MDPCOdpdJSXP2f3Jjw.png",
+  ];
   return (
     <>
-      <div className="flex flex-col flex-wrap  justify-center items-center gap-16 p-10 py-32 " id="stack" >
-
-       
-
-        <div className="card bg-base-100  lg:w-[700px] shadow-xl border-indigo-700 border-2 border-solid">
-          <div className="card-body items-center text-center">
-            <h2 className="card-title text-2xl lg:text-4xl font-bold font-serif animate-pulse">
-            Explore my experience
+      <div
+        className="flex flex-col flex-wrap  justify-center items-center gap-16 p-10 py-32 "
+        id="stack"
+      >
+        <div
+          className="relative  p-[2px] rounded-2xl 
+  bg-gradient-to-r from-indigo-900 via-indigo-700 to-indigo-900 shadow-xl text-white hover:scale-105 transition-transform "
+        >
+          <div className="card-body items-center text-center rounded-2xl bg-white/10 backdrop-blur-lg">
+            <h2
+              className="text-3xl lg:text-5xl font-bold font-serif tracking-wide drop-shadow-lg"
+            >
+              Explore my experience
             </h2>
           </div>
         </div>
+
         {/* Programming */}
-        <div className="card bg-base-100 h-32 w-64 shadow-xl animate-pulse  border-indigo-700 border-2 border-solid">
-          <div className="card-body items-center text-center">
-            <h2 className=" text-xl lg:text-3xl font-bold font-serif">
-              Programming Languages
+        <div
+          className="relative  p-[2px] rounded-xl 
+  bg-gradient-to-r text-white shadow-lg hover:scale-105 transition-transform"
+        >
+          <div className="card-body items-center text-center rounded-xl ">
+            <h2 className="text-3xl lg:text-5xl font-bold font-serif tracking-wide drop-shadow-lg">
+              Programming 
             </h2>
           </div>
         </div>
+
         <div className="flex flex-wrap justify-center items-center gap-5 lg:gap-10">
-        {/* Java */}
-        <figure className="px-5 pt-10 animate-bounce"  style={{ animationDuration: "3s" }}>
+          {/* Java */}
+          <figure
+            className="p-4 rounded-xl bg-white/5 backdrop-blur-md shadow-md 
+  hover:scale-110 hover:shadow-indigo-500/40 transition-transform"
+          >
             <img
-              src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/242px-Java_programming_language_logo.svg.png"
-              className="rounded-xl h-10 lg:h-28"
+              src={programmingImages[0]}
+              className="h-10 lg:h-20"
+              alt="Java"
             />
           </figure>
-          {/* Java end */}
+
           {/* javascript */}
-          <figure className="px-5 pt-10 animate-bounce"  style={{ animationDuration: "3s" }}>
+          <figure
+            className="p-4 rounded-xl bg-white/5 backdrop-blur-md shadow-md 
+  hover:scale-110 hover:shadow-indigo-500/40 transition-transform"
+          >
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
-              className="rounded-xl h-10 lg:h-28"
+              src={programmingImages[1]}
+              className="h-10 lg:h-20"
+              alt="Java"
             />
           </figure>
-          {/* javascript end */}
-{/* python */}
-<figure className="px-5 pt-10 animate-bounce"  style={{ animationDuration: "3s" }}>
+
+          {/* python */}
+          <figure
+            className="p-4 rounded-xl bg-white/5 backdrop-blur-md shadow-md 
+  hover:scale-110 hover:shadow-indigo-500/40 transition-transform"
+          >
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/230px-Python-logo-notext.svg.png"
-              className="rounded-xl h-10 lg:h-28"
+              src={programmingImages[2]}
+              className="h-10 lg:h-20"
+              alt="Java"
             />
           </figure>
-          {/* python end */}
+
           {/* c */}
-          <figure className="px-5 pt-10 animate-bounce"  style={{ animationDuration: "3s" }}>
+          <figure
+            className="p-4 rounded-xl bg-white/5 backdrop-blur-md shadow-md 
+  hover:scale-110 hover:shadow-indigo-500/40 transition-transform"
+          >
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/archive/3/35/20220802133510%21The_C_Programming_Language_logo.svg/120px-The_C_Programming_Language_logo.svg.png"
-              className="rounded-xl h-10 lg:h-28"
+              src={programmingImages[3]}
+              className="h-10 lg:h-20"
+              alt="Java"
             />
           </figure>
-          {/* c end */}
-      </div>   
-      
-        <div className="card bg-base-100 h-24 w-64 shadow-xl animate-pulse pb-20 border-indigo-700 border-2 border-solid">
-          <div className="card-body items-center text-center">
-            <h2 className=" text-xl lg:text-3xl font-bold font-serif">
-              Frontend
+        </div>
+
+        <div
+          className="relative  p-[2px] rounded-xl 
+  bg-gradient-to-r text-white shadow-lg hover:scale-105 transition-transform"
+        >
+          <div className="card-body items-center text-center rounded-xl">
+            <h2 className="text-3xl lg:text-5xl font-bold font-serif tracking-wide drop-shadow-lg">
+              FrontEnd
             </h2>
           </div>
         </div>
         {/* fr end */}
 
-        <div className="flex flex-wrap justify-center items-center gap-5 lg:gap-20">
-
+        <div className="flex flex-wrap justify-center items-center gap-5 lg:gap-10">
           {/* react */}
-          <figure className="px-5 pt-10 animate-bounce"  style={{ animationDuration: "3s" }}>
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/120px-React-icon.svg.png"
-              className="rounded-xl h-10 lg:h-28"
-            />
+          <figure
+            className="p-4 rounded-xl bg-white/5 backdrop-blur-md shadow-md 
+  hover:scale-110 hover:shadow-indigo-500/40 transition-transform"
+          >
+            <img src={frontendImages[0]} className="h-10 lg:h-20" alt="Java" />
           </figure>
-          {/* react end */}
-
-         
 
           {/* HTML */}
 
-          <figure className="px-5 pt-10 animate-bounce "  style={{ animationDuration: "3s" }}>
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/340px-HTML5_logo_and_wordmark.svg.png"
-              alt="html"
-              className="rounded-xl h-10 lg:h-32"
-            />
+          <figure
+            className="p-4 rounded-xl bg-white/5 backdrop-blur-md shadow-md 
+  hover:scale-110 hover:shadow-indigo-500/40 transition-transform"
+          >
+            <img src={frontendImages[1]} className="h-10 lg:h-20" alt="Java" />
           </figure>
-
-          {/* html end */}
 
           {/* css */}
 
-          <figure className="px-5 pt-10  animate-bounce"  style={{ animationDuration: "3s" }}>
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/240px-CSS3_logo.svg.png"
-              alt="Shoes"
-              className="rounded-xl h-10 lg:h-28 "
-            />
+          <figure
+            className="p-4 rounded-xl bg-white/5 backdrop-blur-md shadow-md 
+  hover:scale-110 hover:shadow-indigo-500/40 transition-transform"
+          >
+            <img src={frontendImages[2]} className="h-10 lg:h-20" alt="Java" />
           </figure>
 
-          {/* css end */}
           {/*  */}
-          <figure className="px-5 pt-10 animate-bounce"  style={{ animationDuration: "3s" }}>
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/240px-Tailwind_CSS_Logo.svg.png"
-              alt="Shoes"
-              className="rounded-xl h-6 lg:h-24"
-            />
+          <figure
+            className="p-4 rounded-xl bg-white/5 backdrop-blur-md shadow-md 
+  hover:scale-110 hover:shadow-indigo-500/40 transition-transform"
+          >
+            <img src={frontendImages[3]} className="h-10 lg:h-20" alt="Java" />
           </figure>
         </div>
         {/* backend */}
-        <div className="card bg-base-100 w-64 shadow-xl border-indigo-700 border-2 border-solid">
-          <div className="card-body items-center text-center">
-            <h2 className="card-title text-xl lg:text-3xl font-bold font-serif animate-pulse">
-              Backend
+        <div
+          className="relative  p-[2px] rounded-xl 
+  bg-gradient-to-r text-white shadow-lg hover:scale-105 transition-transform"
+        >
+          <div className="card-body items-center text-center rounded-xl ">
+            <h2 className="text-3xl lg:text-5xl font-bold font-serif tracking-wide drop-shadow-lg">
+              BackEnd
             </h2>
           </div>
         </div>
@@ -123,60 +162,49 @@ const Experience = () => {
 
         <div className="flex flex-wrap justify-center items-center gap-5 lg:gap-10">
           {/* node */}
-          <figure className="px-5 pt-10 animate-bounce"  style={{ animationDuration: "3s" }}>
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/440px-Node.js_logo.svg.png"
-              alt="Shoes"
-              className="rounded-xl h-6 lg:h-24"
-            />
+          <figure
+            className="p-4 rounded-xl bg-white/5 backdrop-blur-md shadow-md 
+  hover:scale-110 hover:shadow-indigo-500/40 transition-transform"
+          >
+            <img src={backendImages[0]} className="h-10 lg:h-20" alt="Java" />
           </figure>
 
           {/* node end */}
 
           {/* express */}
 
-          <figure className="px-5 pt-10 animate-bounce"  style={{ animationDuration: "3s" }}>
-            <img
-              // src="https://externlabs.com/blogs/wp-content/uploads/2021/11/ExpressJS-Library.jpg"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Expressjs.png/440px-Expressjs.png"
-              alt="Shoes"
-              className="rounded-xl h-6 lg:h-16"
-            />
+          <figure
+            className="p-4 rounded-xl bg-white/5 backdrop-blur-md shadow-md 
+  hover:scale-110 hover:shadow-indigo-500/40 transition-transform"
+          >
+            <img src={backendImages[1]} className="h-10 lg:h-20" alt="Java" />
           </figure>
-
-          {/* express end */}
 
           {/* Mongodb */}
 
-          <figure className="px-5 pt-10 animate-bounce"  style={{ animationDuration: "3s" }}>
-            <img
-              // src="https://media.licdn.com/dms/image/D4D12AQETgv5fMiYEXA/article-cover_image-shrink_720_1280/0/1677609185621?e=2147483647&v=beta&t=4Hu56lmQmUTtVSMFDKfipqVq9U1jo41sIJpib0lQoCo"
-              src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/MongoDB_Fores-Green.svg/500px-MongoDB_Fores-Green.svg.png"
-              alt="Shoes"
-              className="rounded-xl h-6 lg:h-16"
-            />
+          <figure
+            className="p-4 rounded-xl bg-white/5 backdrop-blur-md shadow-md 
+  hover:scale-110 hover:shadow-indigo-500/40 transition-transform"
+          >
+            <img src={backendImages[2]} className="h-10 lg:h-20" alt="Java" />
           </figure>
 
           {/* mongodb end */}
 
           {/* api */}
 
-          <figure className="px-5 pt-10 animate-bounce"  style={{ animationDuration: "3s" }}>
-            <img
-              src="https://miro.medium.com/v2/resize:fit:1400/1*GPQ7MDPCOdpdJSXP2f3Jjw.png"
-              alt="Shoes"
-              className="rounded-xl h-10 lg:h-20 "
-            />
+          <figure
+            className="p-4 rounded-xl bg-white/5 backdrop-blur-md shadow-md 
+  hover:scale-110 hover:shadow-indigo-500/40 transition-transform"
+          >
+            <img src={backendImages[3]} className="h-10 lg:h-20" alt="Java" />
           </figure>
 
           {/* api end */}
         </div>
-        
       </div>
-    
     </>
   );
 };
 
 export default Experience;
-

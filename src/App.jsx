@@ -3,6 +3,11 @@ import { motion, useSpring, useScroll } from "framer-motion"
 import Scroller from "./components/Scroller";
 import BootScreen from "./components/BootScreen";
 
+import { gsap } from "gsap";
+import { useGSAP } from "@gsap/react";
+import { SlowMo } from "gsap/EasePack";
+
+gsap.registerPlugin(useGSAP,SlowMo);
 function ScrollLinked() {
   const { scrollYProgress } = useScroll()
   const scaleX = useSpring(scrollYProgress, {
