@@ -1,6 +1,7 @@
 import React from "react";
 import toast, { Toaster } from "react-hot-toast";
 import { motion } from "framer-motion";
+import Achievements from "./Achievements";
 
 const Hero = () => {
   const profileLinks = [
@@ -9,23 +10,22 @@ const Hero = () => {
     "https://github.com/Ajaynirm",
     "https://www.linkedin.com/in/ajay-c-06465821a/",
   ];
-  
 
   const openLeet = () => {
     toast.success("LeetCode Opening");
-    window.open(profileLinks[0], "_self");
+    window.open(profileLinks[0]);
   };
   const openGeeks = () => {
     toast.success("Geeks for Geeks Opening");
-    window.open(profileLinks[1], "_self");
+    window.open(profileLinks[1]);
   };
   const openGitHub = () => {
     toast.success("GitHub Opening");
-    window.open(profileLinks[2], "_self");
+    window.open(profileLinks[2]);
   };
   const openLinkedin = () => {
     toast.success("LinkedIn Opening");
-    window.open(profileLinks[3], "_self");
+    window.open(profileLinks[3]);
   };
 
   return (
@@ -95,6 +95,7 @@ const Hero = () => {
               Get Started
             </button>
 
+            <Achievements />
 
             <div
               className="flex flex-col justify-center items-center py-32 space-y-28 space-x-2"
@@ -115,51 +116,56 @@ const Hero = () => {
                 </div>
               </div>
 
-              <div className="flex flex-row  justify-center items-center  gap-20 lg:gap-40 ">
-                <button
-                  className="  lg:h-20 lg:text-2xl font-serif hover:animate-spin "
-                  style={{ animationDuration: "3s" }}
-                  onClick={openLeet}
-                >
-                  <img
-                    className="h-12 w-15"
-                    src="https://upload.wikimedia.org/wikipedia/commons/8/8e/LeetCode_Logo_1.png"
-                    alt=""
-                  />
-                </button>
-                <button
-                  className=" lg:h-20  lg:text-2xl font-serif hover:animate-spin"
-                  style={{ animationDuration: "3s" }}
-                  onClick={openGeeks}
-                >
-                  <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg"
-                    alt=""
-                  />
-                </button>
-                <button
-                  className="  lg:h-20 lg:text-2xl font-serif hover:animate-spin"
-                  style={{ animationDuration: "3s" }}
-                  onClick={openGitHub}
-                >
-                  <img
-                    className="h-12 w-15"
-                    src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png"
-                    alt=""
-                  />
-                </button>
-                <button
-                  className=" h-15 lg:h-20 lg:text-2xl font-serif hover:animate-spin"
-                  style={{ animationDuration: "3s" }}
-                  onClick={openLinkedin}
-                >
-                  <img
-                    className="h-12 w-15"
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/120px-LinkedIn_icon.svg.png"
-                    alt=""
-                  />
-                </button>
-              </div>
+              <div className="flex flex-wrap justify-center items-center gap-8 sm:gap-12 md:gap-16 lg:gap-20">
+  <button
+    className="h-14 w-14 sm:h-16 sm:w-16 lg:h-20 lg:w-20 flex justify-center items-center rounded-full hover:animate-spin"
+    style={{ animationDuration: "3s" }}
+    onClick={openLeet}
+  >
+    <img
+      className="h-10 w-10 sm:h-12 sm:w-12 lg:h-14 lg:w-14 object-contain"
+      src="https://upload.wikimedia.org/wikipedia/commons/8/8e/LeetCode_Logo_1.png"
+      alt="LeetCode"
+    />
+  </button>
+
+  <button
+    className="h-14 w-14 sm:h-16 sm:w-16 lg:h-20 lg:w-20 flex justify-center items-center rounded-full hover:animate-spin"
+    style={{ animationDuration: "3s" }}
+    onClick={openGeeks}
+  >
+    <img
+      className="h-10 w-10 sm:h-12 sm:w-12 lg:h-14 lg:w-14 object-contain"
+      src="https://upload.wikimedia.org/wikipedia/commons/4/43/GeeksforGeeks.svg"
+      alt="GeeksforGeeks"
+    />
+  </button>
+
+  <button
+    className="h-14 w-14 sm:h-16 sm:w-16 lg:h-20 lg:w-20 flex justify-center items-center rounded-full hover:animate-spin"
+    style={{ animationDuration: "3s" }}
+    onClick={openGitHub}
+  >
+    <img
+      className="h-10 w-10 sm:h-12 sm:w-12 lg:h-14 lg:w-14 object-contain"
+      src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png"
+      alt="GitHub"
+    />
+  </button>
+
+  <button
+    className="h-14 w-14 sm:h-16 sm:w-16 lg:h-20 lg:w-20 flex justify-center items-center rounded-full hover:animate-spin"
+    style={{ animationDuration: "3s" }}
+    onClick={openLinkedin}
+  >
+    <img
+      className="h-10 w-10 sm:h-12 sm:w-12 lg:h-14 lg:w-14 object-contain"
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/120px-LinkedIn_icon.svg.png"
+      alt="LinkedIn"
+    />
+  </button>
+</div>
+
             </div>
           </div>
         </div>

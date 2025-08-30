@@ -1,5 +1,4 @@
 import React from "react";
-import "./project.css";
 
 const Project = () => {
   const project=[  {
@@ -71,22 +70,22 @@ const Project = () => {
   return (
     <>
       <div id="project" className="flex justify-center items-center gap-10 px-10 pb-30">
-        
-        <div className="card bg-base-100  lg:w-[500px]  bg-gradient-to-r  shadow-lg  mb-10 hover:scale-105 transition-transform">
-          <div className="card-body items-center text-center ">
-            <h2 className="text-3xl lg:text-5xl font-bold font-serif tracking-wide drop-shadow-lg">
-               Projects
-            </h2>
-          </div>
-        </div>
-      </div>
+  <div className="card bg-base-100 lg:w-[500px] bg-gradient-to-r shadow-lg mb-10 hover:scale-105 transition-transform">
+    <div className="card-body items-center text-center ">
+      <h2 className="text-3xl lg:text-5xl font-bold font-serif tracking-wide drop-shadow-lg">
+        Projects
+      </h2>
+    </div>
+  </div>
+</div>
 
-      <div className="flex justify-center flex-wrap gap-10 lg:gap-16 p-10 mb-32">
+<div className="flex justify-center flex-wrap gap-10 lg:gap-16 p-10 mb-32">
   {project.map((project, idx) => (
     <div
       key={idx}
-      className="card w-80 lg:w-96 bg-white/10 backdrop-blur-md border border-indigo-700 shadow-xl rounded-xl transition transform hover:-translate-y-2 hover:shadow-2xl"
+      className="group relative card w-80 lg:w-96 bg-white/10 backdrop-blur-md border border-indigo-700 shadow-xl rounded-xl overflow-hidden transition transform hover:-translate-y-2 hover:shadow-2xl"
     >
+      {/* Image */}
       <figure className="px-2 pt-6">
         <img
           className="rounded-xl w-40 h-40 object-cover mx-auto"
@@ -94,6 +93,8 @@ const Project = () => {
           alt={project.title}
         />
       </figure>
+
+      {/* Title & Status */}
       <div className="card-body text-center space-y-3">
         <h2 className="card-title justify-center font-serif text-lg lg:text-xl font-bold">
           {project.title}
@@ -101,8 +102,12 @@ const Project = () => {
             {project.status}
           </div>
         </h2>
-        <p className="text-sm font-mono ">{project.desc}</p>
-        <div className="card-actions justify-center gap-4 pt-3">
+      </div>
+
+      {/* Hidden content - show on hover */}
+      <div className="absolute inset-0 bg-black/80 text-white flex flex-col justify-center items-center gap-4 px-4 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <p className="text-sm font-mono">{project.desc}</p>
+        <div className="flex gap-4">
           {project.github && (
             <button
               className="btn btn-outline btn-accent"
@@ -124,6 +129,7 @@ const Project = () => {
     </div>
   ))}
 </div>
+
 
     </>
   );

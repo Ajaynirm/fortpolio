@@ -7,7 +7,6 @@ import Contact from "./Contact";
 import Accordion from "./Accordion";
 import { motion, useSpring, useScroll } from "framer-motion";
 
-
 function Scroller() {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
@@ -36,6 +35,7 @@ function Scroller() {
       <div className="select-none">
         <Navbar />
         <Hero />
+      
         <Experience />
         <Project />
         <Accordion />
