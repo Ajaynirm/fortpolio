@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="flex flex-col justify-center items-center gap-12 pt-32 pb-32 bg-gradient-to-b  text-white"
+      className="flex flex-col justify-center items-center gap-12 pt-32 pb-32 bg-gradient-to-b  "
     >
       {/* Heading */}
       <h2 className="text-3xl lg:text-5xl font-bold font-serif tracking-wide drop-shadow-lg">
@@ -13,7 +13,7 @@ const Contact = () => {
 
       {/* Contact card */}
       <div className="bg-white/10 backdrop-blur-lg p-5 lg:p-10 m-8 rounded-2xl shadow-lg border border-indigo-500 max-w-lg text-center">
-        <p className="mb-6 text-base lg:text-lg font-mono text-indigo-200">
+        <p className="mb-6 text-base lg:text-lg font-mono ">
           Have a project idea, collaboration, or just want to say hello?  
           Let’s connect 👇
         </p>

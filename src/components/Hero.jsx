@@ -1,6 +1,5 @@
 import React from "react";
 import toast, { Toaster } from "react-hot-toast";
-import "./animations.css";
 import { motion } from "framer-motion";
 
 const Hero = () => {

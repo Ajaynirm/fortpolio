@@ -4,8 +4,9 @@ import Hero from "./Hero";
 import Project from "./Project";
 import Experience from "./Experience";
 import Contact from "./Contact";
-
+import Accordion from "./Accordion";
 import { motion, useSpring, useScroll } from "framer-motion";
+
 
 function Scroller() {
   const { scrollYProgress } = useScroll();
@@ -17,27 +18,27 @@ function Scroller() {
 
   return (
     <>
-      {/* Scroll Indicator */}
       <motion.div
         id="scroll-indicator"
         style={{
           scaleX,
           position: "fixed",
-          top: 0,
-          left: 0,
+          left: 1,
           right: 0,
-          height: 4,
+          bottom: 0,
+          height: 6,
           originX: 0,
-          backgroundColor: "pink",
+          backgroundColor: "blue",
           zIndex: 100,
         }}
       />
+
       <div className="select-none">
         <Navbar />
         <Hero />
         <Experience />
         <Project />
-        {/* <Accordion /> */}
+        <Accordion />
         <Contact />
         <Footer />
       </div>
@@ -45,3 +46,5 @@ function Scroller() {
   );
 }
 export default Scroller;
+
+

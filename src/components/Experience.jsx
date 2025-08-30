@@ -7,6 +7,7 @@ const Experience = () => {
     "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/230px-Python-logo-notext.svg.png",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/archive/3/35/20220802133510%21The_C_Programming_Language_logo.svg/120px-The_C_Programming_Language_logo.svg.png",
   ];
+
   const frontendImages = [
     "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/120px-React-icon.svg.png",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/340px-HTML5_logo_and_wordmark.svg.png",
@@ -14,10 +15,16 @@ const Experience = () => {
     "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/240px-Tailwind_CSS_Logo.svg.png",
   ];
   const backendImages = [
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/440px-Node.js_logo.svg.png",
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Expressjs.png/440px-Expressjs.png",
+    "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*o5FmjKTPdJTbhGE2MIjo6w.jpeg",
+    "https://jordankasper.com/images/nodejs.png",
+    "https://www.edureka.co/blog/wp-content/uploads/2019/07/express-logo.png",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu_oXXcM_0u5VT-Xe2pfv-rs8bFzHcXtLbdg&s",
     "https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/MongoDB_Fores-Green.svg/500px-MongoDB_Fores-Green.svg.png",
-    "https://miro.medium.com/v2/resize:fit:1400/1*GPQ7MDPCOdpdJSXP2f3Jjw.png",
+    "https://dfdmyvckxgqn5.cloudfront.net/_app/immutable/assets/building-elegant-rest-apis.d8f4cbc6.jpg",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjNPtcQZ5blY_8dZM4vjHNlcMhn1oyd7dG3g&s",
+    "https://sdemian.com/images/working-with-kafka-consumers.jpg",
+    "https://cdn.worldvectorlogo.com/logos/docker.svg"
+
   ];
   return (
     <>
@@ -41,7 +48,7 @@ const Experience = () => {
         {/* Programming */}
         <div
           className="relative  p-[2px] rounded-xl 
-  bg-gradient-to-r text-white shadow-lg hover:scale-105 transition-transform"
+  bg-gradient-to-r  shadow-lg hover:scale-105 transition-transform"
         >
           <div className="card-body items-center text-center rounded-xl ">
             <h2 className="text-3xl lg:text-5xl font-bold font-serif tracking-wide drop-shadow-lg">
@@ -102,7 +109,7 @@ const Experience = () => {
 
         <div
           className="relative  p-[2px] rounded-xl 
-  bg-gradient-to-r text-white shadow-lg hover:scale-105 transition-transform"
+  bg-gradient-to-r  shadow-lg hover:scale-105 transition-transform"
         >
           <div className="card-body items-center text-center rounded-xl">
             <h2 className="text-3xl lg:text-5xl font-bold font-serif tracking-wide drop-shadow-lg">
@@ -150,7 +157,7 @@ const Experience = () => {
         {/* backend */}
         <div
           className="relative  p-[2px] rounded-xl 
-  bg-gradient-to-r text-white shadow-lg hover:scale-105 transition-transform"
+  bg-gradient-to-r  shadow-lg hover:scale-105 transition-transform"
         >
           <div className="card-body items-center text-center rounded-xl ">
             <h2 className="text-3xl lg:text-5xl font-bold font-serif tracking-wide drop-shadow-lg">
@@ -158,10 +165,13 @@ const Experience = () => {
             </h2>
           </div>
         </div>
-        {/* bc end */}
+        
+
 
         <div className="flex flex-wrap justify-center items-center gap-5 lg:gap-10">
-          {/* node */}
+
+
+          {/* Spring boot */}
           <figure
             className="p-4 rounded-xl bg-white/5 backdrop-blur-md shadow-md 
   hover:scale-110 hover:shadow-indigo-500/40 transition-transform"
@@ -169,9 +179,9 @@ const Experience = () => {
             <img src={backendImages[0]} className="h-10 lg:h-20" alt="Java" />
           </figure>
 
-          {/* node end */}
+       
 
-          {/* express */}
+          {/* Node */}
 
           <figure
             className="p-4 rounded-xl bg-white/5 backdrop-blur-md shadow-md 
@@ -180,8 +190,8 @@ const Experience = () => {
             <img src={backendImages[1]} className="h-10 lg:h-20" alt="Java" />
           </figure>
 
-          {/* Mongodb */}
-
+       
+          {/* express */}
           <figure
             className="p-4 rounded-xl bg-white/5 backdrop-blur-md shadow-md 
   hover:scale-110 hover:shadow-indigo-500/40 transition-transform"
@@ -189,10 +199,7 @@ const Experience = () => {
             <img src={backendImages[2]} className="h-10 lg:h-20" alt="Java" />
           </figure>
 
-          {/* mongodb end */}
-
-          {/* api */}
-
+          {/* MySql */}
           <figure
             className="p-4 rounded-xl bg-white/5 backdrop-blur-md shadow-md 
   hover:scale-110 hover:shadow-indigo-500/40 transition-transform"
@@ -200,7 +207,54 @@ const Experience = () => {
             <img src={backendImages[3]} className="h-10 lg:h-20" alt="Java" />
           </figure>
 
-          {/* api end */}
+             {/* Mongodb */}
+
+         
+
+          <figure
+            className="p-4 rounded-xl bg-white/5 backdrop-blur-md shadow-md 
+  hover:scale-110 hover:shadow-indigo-500/40 transition-transform"
+          >
+            <img src={backendImages[4]} className="h-10 lg:h-20" alt="Java" />
+          </figure>
+
+           {/* api */}
+          
+
+          <figure
+            className="p-4 rounded-xl bg-white/5 backdrop-blur-md shadow-md 
+  hover:scale-110 hover:shadow-indigo-500/40 transition-transform"
+          >
+            <img src={backendImages[5]} className="h-10 lg:h-20" alt="Java" />
+          </figure>
+
+         {/* redis */}
+          
+
+          <figure
+            className="p-4 rounded-xl bg-white/5 backdrop-blur-md shadow-md 
+  hover:scale-110 hover:shadow-indigo-500/40 transition-transform"
+          >
+            <img src={backendImages[6]} className="h-10 lg:h-20" alt="Java" />
+          </figure>
+
+         
+          {/* kafka */}
+          <figure
+            className="p-4 rounded-xl bg-white/5 backdrop-blur-md shadow-md 
+  hover:scale-110 hover:shadow-indigo-500/40 transition-transform"
+          >
+            <img src={backendImages[7]} className="h-10 lg:h-20" alt="Java" />
+          </figure>
+
+           {/* Docker */}
+           <figure
+            className="p-4 rounded-xl bg-white/5 backdrop-blur-md shadow-md 
+  hover:scale-110 hover:shadow-indigo-500/40 transition-transform"
+          >
+            <img src={backendImages[8]} className="h-10 lg:h-20" alt="Java" />
+          </figure>
+        
         </div>
       </div>
     </>
