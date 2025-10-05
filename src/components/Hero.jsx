@@ -82,43 +82,9 @@ const Hero = () => {
               an impact.
             </p>
 
-            <button
-              className=" bg-indigo-700 text-white font-serif lg:text-lg lg:mt-10 animate-bounce p-2"
-              onClick={() => {
-                toast.success("Scrolling down 👇🏻");
-                window.scrollTo({
-                  top: document.body.scrollHeight,
-                  behavior: "smooth",
-                });
-              }}
-            >
-              Get Started
-            </button>
-
-            <Achievements />
-
-            <div
-              className="flex flex-col justify-center items-center py-32 space-y-28 space-x-2"
-              id="profile"
-            >
-              <div
-                className="relative lg:w-[700px] p-[2px] rounded-2xl 
-  bg-gradient-to-r from-indigo-900 via-indigo-700 to-indigo-900 shadow-xl hover:scale-105 transition-transform"
-              >
-                <div className="card-body items-center text-center rounded-2xl bg-white/10 backdrop-blur-lg">
-                  <h2
-                    className="text-2xl lg:text-4xl font-bold font-serif 
-      text-white 
-      bg-clip-text text-transparent "
-                  >
-                    Check out my Profile
-                  </h2>
-                </div>
-              </div>
-
-              <div className="flex flex-wrap justify-center items-center gap-8 sm:gap-12 md:gap-16 lg:gap-20">
+            <div className="flex flex-wrap justify-center items-center gap-8 sm:gap-12 md:gap-16 lg:gap-20">
   <button
-    className="h-14 w-14 sm:h-16 sm:w-16 lg:h-20 lg:w-20 flex justify-center items-center rounded-full hover:animate-spin"
+    className="h-14 w-14 sm:h-16 sm:w-16 lg:h-20 lg:w-20 flex justify-center items-center rounded-full animate-spin"
     style={{ animationDuration: "3s" }}
     onClick={openLeet}
   >
@@ -130,7 +96,7 @@ const Hero = () => {
   </button>
 
   <button
-    className="h-14 w-14 sm:h-16 sm:w-16 lg:h-20 lg:w-20 flex justify-center items-center rounded-full hover:animate-spin"
+    className="h-14 w-14 sm:h-16 sm:w-16 lg:h-20 lg:w-20 flex justify-center items-center rounded-full animate-spin"
     style={{ animationDuration: "3s" }}
     onClick={openGeeks}
   >
@@ -142,7 +108,7 @@ const Hero = () => {
   </button>
 
   <button
-    className="h-14 w-14 sm:h-16 sm:w-16 lg:h-20 lg:w-20 flex justify-center items-center rounded-full hover:animate-spin"
+    className="h-14 w-14 sm:h-16 sm:w-16 lg:h-20 lg:w-20 flex justify-center items-center rounded-full animate-spin"
     style={{ animationDuration: "3s" }}
     onClick={openGitHub}
   >
@@ -154,7 +120,7 @@ const Hero = () => {
   </button>
 
   <button
-    className="h-14 w-14 sm:h-16 sm:w-16 lg:h-20 lg:w-20 flex justify-center items-center rounded-full hover:animate-spin"
+    className="h-14 w-14 sm:h-16 sm:w-16 lg:h-20 lg:w-20 flex justify-center items-center rounded-full animate-spin"
     style={{ animationDuration: "3s" }}
     onClick={openLinkedin}
   >
@@ -166,7 +132,23 @@ const Hero = () => {
   </button>
 </div>
 
-            </div>
+
+            <button
+              className=" bg-indigo-700 text-white font-mono lg:text-lg lg:mt-10 animate-bounce p-2 rounded-xl"
+              onClick={() => {
+                toast.success("Scrolling down 👇🏻");
+                window.scrollTo({
+                  top: document.body.scrollHeight,
+                  behavior: "smooth",
+                });
+              }}
+            >
+              Inspect
+            </button>
+
+           
+
+           
           </div>
         </div>
       </div>

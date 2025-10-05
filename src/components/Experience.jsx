@@ -38,7 +38,7 @@ const Experience = () => {
         >
           <div className="card-body items-center text-center rounded-2xl bg-white/10 backdrop-blur-lg">
             <h2
-              className="text-3xl lg:text-5xl font-bold font-serif tracking-wide drop-shadow-lg"
+              className="text-2xl lg:text-5xl font-bold font-serif tracking-wide drop-shadow-lg"
             >
               Explore my experience
             </h2>
@@ -51,7 +51,7 @@ const Experience = () => {
   bg-gradient-to-r  shadow-lg hover:scale-105 transition-transform"
         >
           <div className="card-body items-center text-center rounded-xl ">
-            <h2 className="text-3xl lg:text-5xl font-bold font-serif tracking-wide drop-shadow-lg">
+            <h2 className="text-xl lg:text-5xl font-bold font-serif tracking-wide drop-shadow-lg">
               Programming 
             </h2>
           </div>
@@ -112,7 +112,7 @@ const Experience = () => {
   bg-gradient-to-r  shadow-lg hover:scale-105 transition-transform"
         >
           <div className="card-body items-center text-center rounded-xl">
-            <h2 className="text-3xl lg:text-5xl font-bold font-serif tracking-wide drop-shadow-lg">
+            <h2 className="text-xl lg:text-5xl font-bold font-serif tracking-wide drop-shadow-lg">
               FrontEnd
             </h2>
           </div>
@@ -160,7 +160,7 @@ const Experience = () => {
   bg-gradient-to-r  shadow-lg hover:scale-105 transition-transform"
         >
           <div className="card-body items-center text-center rounded-xl ">
-            <h2 className="text-3xl lg:text-5xl font-bold font-serif tracking-wide drop-shadow-lg">
+            <h2 className="text-xl lg:text-5xl font-bold font-serif tracking-wide drop-shadow-lg">
               BackEnd
             </h2>
           </div>

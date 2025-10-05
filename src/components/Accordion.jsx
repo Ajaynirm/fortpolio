@@ -35,15 +35,9 @@ const Accordion = () => {
         animate={{ scale: [1, 1.05, 1] }}
         transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
       >
-        {isOpen ? "Only me" : "Why are u waiting!"}
+        
 
-        {/* Rotating Arrow */}
-        <motion.div
-          animate={{ rotate: isOpen ? 180 : 0 }}
-          transition={{ duration: 0.3 }}
-        >
-          <ChevronDown className="w-6 h-6 text-red-400" />
-        </motion.div>
+       
       </motion.button>
 
       {/* Animated Content */}
